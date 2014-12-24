@@ -13,7 +13,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    (function(symbolName) {
       
       
-      Symbol.bindElementAction(compId, symbolName, "${_Stage}", "scroll", function(sym, e) {
+      Symbol.bindElementAction(compId, symbolName, "${Stage}", "scroll", function(sym, e) {
          var myCalc = e.currentTarget.scrollLeft/(e.currentTarget.scrollWidth-e.currentTarget.clientWidth);
          var pos = Math.round( myCalc * sym.getDuration() );
          
@@ -264,4 +264,4 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    })("sym_a");
    //Edge symbol end:'sym_a'
 
-})(jQuery, AdobeEdge, "EDGE-5245403");
+})(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-5245403");
