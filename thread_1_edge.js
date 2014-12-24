@@ -1,407 +1,611 @@
-/**
- * Adobe Edge: symbol definitions
- */
-(function($, Edge, compId){
-//images folder
-var im='images/';
+/*jslint */
+/*global AdobeEdge: false, window: false, document: false, console:false, alert: false */
+(function (compId) {
 
-var fonts = {};
-var opts = {};
-var resources = [
-];
-var symbols = {
-"stage": {
-    version: "3.0.0",
-    minimumCompatibleVersion: "3.0.0",
-    build: "3.0.0.322",
-    baseState: "Base State",
-    scaleToFit: "none",
-    centerStage: "none",
-    initialState: "Base State",
-    gpuAccelerate: false,
-    resizeInstances: false,
-    content: {
-            dom: [
-            {
-                id: 'Rectangle',
-                type: 'rect',
-                rect: ['0px', '0px','6819px','1536px','auto', 'auto'],
-                fill: ["rgba(23,25,40,1.00)"],
-                stroke: [0,"rgba(0,0,0,1)","none"]
-            },
-            {
-                id: 'sym_welleframe',
-                type: 'rect',
-                rect: ['0px', '0','auto','auto','auto', 'auto']
-            },
-            {
-                id: 'sym_all',
-                type: 'rect',
-                rect: ['0', '0','auto','auto','auto', 'auto']
-            }],
-            symbolInstances: [
-            {
-                id: 'sym_welleframe',
-                symbolName: 'sym_welleframe',
-                autoPlay: {
-
+    "use strict";
+    var im='images/',
+        aud='media/',
+        vid='media/',
+        js='js/',
+        fonts = {
+        },
+        opts = {
+            'gAudioPreloadPreference': 'auto',
+            'gVideoPreloadPreference': 'auto'
+        },
+        resources = [
+        ],
+        scripts = [
+            js+"jquery-2.0.3.min.js"
+        ],
+        symbols = {
+            "stage": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 'Rectangle',
+                            type: 'rect',
+                            rect: ['0px', '0px', '6819', '1536px', 'auto', 'auto'],
+                            fill: ["rgba(23,25,40,1.00)"],
+                            stroke: [0,"rgba(0,0,0,1)","none"]
+                        },
+                        {
+                            id: 'sym_welleframe',
+                            symbolName: 'sym_welleframe',
+                            type: 'rect',
+                            rect: ['0', '0', '2048', '1536', 'auto', 'auto'],
+                            overflow: 'hidden'
+                        },
+                        {
+                            id: 'sym_all',
+                            symbolName: 'sym_all',
+                            type: 'rect',
+                            rect: ['0', '0', '6144', '1536', 'auto', 'auto'],
+                            overflow: 'hidden'
+                        }
+                    ],
+                    style: {
+                        '${Stage}': {
+                            isStage: true,
+                            rect: ['null', 'null', '2048', '1536', 'auto', 'auto'],
+                            overflow: 'auto',
+                            fill: ["rgba(255,255,255,1)"]
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 6000,
+                    autoPlay: false,
+                    data: [
+                        [
+                            "eid1621",
+                            "left",
+                            0,
+                            6000,
+                            "linear",
+                            "${sym_all}",
+                            '0px',
+                            '-500px'
+                        ],
+                        [
+                            "eid1466",
+                            "left",
+                            0,
+                            6000,
+                            "linear",
+                            "${sym_welleframe}",
+                            '0px',
+                            '4771px'
+                        ]
+                    ]
                 }
             },
-            {
-                id: 'sym_all',
-                symbolName: 'sym_all',
-                autoPlay: {
+            "sym_all": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: [0, 4, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'titela',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/titela.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'titelb',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/titelb.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [2078, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'atxta_3',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/atxta_3.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [2148, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'atxta_2',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/atxta_2.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [2074, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'atxtb_3',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/atxtb_3.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [2068, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'atxta_1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/atxta_1.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [2058, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'atxtb_2',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/atxtb_2.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [2048, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'atxtb_1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/atxtb_1.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'aheada_1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/aheada_1.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'aheada_2',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/aheada_2.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'aheadb_1',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/aheadb_1.svg', '0px', '0px']
+                        },
+                        {
+                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'aheadb_2',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/aheadb_2.svg', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            overflow: 'hidden',
+                            rect: [null, null, 6144, 1536]
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 6000,
+                    autoPlay: true,
+                    data: [
+                        [
+                            "eid1591",
+                            "top",
+                            5000,
+                            0,
+                            "linear",
+                            "${aheada_1}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1589",
+                            "top",
+                            5000,
+                            0,
+                            "linear",
+                            "${aheada_2}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1587",
+                            "top",
+                            5000,
+                            0,
+                            "linear",
+                            "${aheadb_1}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1577",
+                            "left",
+                            2250,
+                            750,
+                            "linear",
+                            "${atxtb_1}",
+                            '2048px',
+                            '1648px'
+                        ],
+                        [
+                            "eid1536",
+                            "top",
+                            2250,
+                            0,
+                            "linear",
+                            "${atxta_2}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1606",
+                            "left",
+                            5000,
+                            750,
+                            "linear",
+                            "${aheadb_1}",
+                            '4096px',
+                            '3796px'
+                        ],
+                        [
+                            "eid1607",
+                            "left",
+                            5000,
+                            750,
+                            "linear",
+                            "${aheada_2}",
+                            '4096px',
+                            '3896px'
+                        ],
+                        [
+                            "eid1524",
+                            "top",
+                            2250,
+                            0,
+                            "linear",
+                            "${atxtb_1}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1547",
+                            "top",
+                            6000,
+                            0,
+                            "linear",
+                            "${atxtb_1}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1362",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${titelb}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1585",
+                            "top",
+                            5000,
+                            0,
+                            "linear",
+                            "${aheadb_2}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1611",
+                            "left",
+                            2250,
+                            750,
+                            "linear",
+                            "${atxta_3}",
+                            '2078px',
+                            '1978px'
+                        ],
+                        [
+                            "eid1363",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${titela}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1573",
+                            "left",
+                            2250,
+                            750,
+                            "linear",
+                            "${atxta_2}",
+                            '2148px',
+                            '1948px'
+                        ],
+                        [
+                            "eid1605",
+                            "left",
+                            5000,
+                            750,
+                            "linear",
+                            "${aheadb_2}",
+                            '4096px',
+                            '3796px'
+                        ],
+                        [
+                            "eid1574",
+                            "left",
+                            2250,
+                            750,
+                            "linear",
+                            "${atxtb_3}",
+                            '2074px',
+                            '1874px'
+                        ],
+                        [
+                            "eid1530",
+                            "top",
+                            2250,
+                            0,
+                            "linear",
+                            "${atxta_1}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1576",
+                            "left",
+                            2250,
+                            750,
+                            "linear",
+                            "${atxtb_2}",
+                            '2058px',
+                            '1758px'
+                        ],
+                        [
+                            "eid1527",
+                            "top",
+                            2250,
+                            0,
+                            "linear",
+                            "${atxtb_2}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1539",
+                            "top",
+                            2250,
+                            0,
+                            "linear",
+                            "${atxta_3}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1622",
+                            "top",
+                            0,
+                            6000,
+                            "linear",
+                            "${titelb}",
+                            '0px',
+                            '10px'
+                        ],
+                        [
+                            "eid1533",
+                            "top",
+                            2250,
+                            0,
+                            "linear",
+                            "${atxtb_3}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1378",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${titela}",
+                            '4px',
+                            '4px'
+                        ],
+                        [
+                            "eid1575",
+                            "left",
+                            2250,
+                            750,
+                            "linear",
+                            "${atxta_1}",
+                            '2068px',
+                            '1768px'
+                        ],
+                        [
+                            "eid1608",
+                            "left",
+                            5000,
+                            750,
+                            "linear",
+                            "${aheada_1}",
+                            '4096px',
+                            '3896px'
+                        ]
+                    ]
+                }
+            },
+            "sym_welle": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            type: 'rect',
+                            id: 'Rectangle2',
+                            stroke: [0, 'rgba(0,0,0,1)', 'none'],
+                            rect: [0, -1317, 2048, '1536px', 'auto', 'auto'],
+                            fill: ['rgba(255,0,80,1.00)']
+                        },
+                        {
+                            rect: [0, 47, '4096px', '800px', 'auto', 'auto'],
+                            id: 'welle12',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/welle1.svg', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            overflow: 'hidden',
+                            rect: [null, null, 2048, 1536]
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 3500,
+                    autoPlay: true,
+                    labels: {
+                        "loop_welle": 0
+                    },
+                    data: [
+                        [
+                            "eid1476",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${Rectangle2}",
+                            '-1317px',
+                            '-1317px'
+                        ],
+                        [
+                            "eid1462",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${Rectangle2}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1475",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${welle12}",
+                            '47px',
+                            '47px'
+                        ],
+                        [
+                            "eid1453",
+                            "scaleY",
+                            0,
+                            583,
+                            "easeInOutQuad",
+                            "${welle12}",
+                            '1',
+                            '0.8'
+                        ],
+                        [
+                            "eid1454",
+                            "scaleY",
+                            583,
+                            583,
+                            "easeInOutQuad",
+                            "${welle12}",
+                            '0.8',
+                            '1'
+                        ],
+                        [
+                            "eid1455",
+                            "scaleY",
+                            1167,
+                            583,
+                            "easeInOutQuad",
+                            "${welle12}",
+                            '1',
+                            '0.9'
+                        ],
+                        [
+                            "eid1456",
+                            "scaleY",
+                            1750,
+                            583,
+                            "easeInOutQuad",
+                            "${welle12}",
+                            '0.9',
+                            '1'
+                        ],
+                        [
+                            "eid1457",
+                            "scaleY",
+                            2333,
+                            583,
+                            "easeInOutQuad",
+                            "${welle12}",
+                            '1',
+                            '0.8'
+                        ],
+                        [
+                            "eid1458",
+                            "scaleY",
+                            2917,
+                            583,
+                            "easeInOutQuad",
+                            "${welle12}",
+                            '0.8',
+                            '1'
+                        ],
+                        [
+                            "eid1461",
+                            "left",
+                            0,
+                            3500,
+                            "linear",
+                            "${welle12}",
+                            '0px',
+                            '-2048px'
+                        ]
+                    ]
+                }
+            },
+            "sym_welleframe": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: [0, 0, 2048, 1536, 'auto', 'auto'],
+                            overflow: 'visible',
+                            id: 'sym_welle',
+                            symbolName: 'sym_welle',
+                            type: 'rect'
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, 2048, 1536]
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 3500,
+                    autoPlay: false,
+                    data: [
 
+                    ]
                 }
             }
-            ]
-        },
-    states: {
-        "Base State": {
-            "${_sym_welleframe}": [
-                ["style", "left", '0px'],
-                ["style", "overflow", 'hidden']
-            ],
-            "${_sym_all}": [
-                ["transform", "skewY", '0deg'],
-                ["style", "left", '0px']
-            ],
-            "${_Stage}": [
-                ["color", "background-color", 'rgba(255,255,255,1)'],
-                ["style", "overflow", 'auto'],
-                ["style", "height", '1536px'],
-                ["style", "width", '2048px']
-            ],
-            "${_Rectangle}": [
-                ["color", "background-color", 'rgba(23,25,40,1.00)'],
-                ["style", "width", '6819px']
-            ]
-        }
-    },
-    timelines: {
-        "Default Timeline": {
-            fromState: "Base State",
-            toState: "",
-            duration: 6000,
-            autoPlay: false,
-            timeline: [
-                { id: "eid1621", tween: [ "style", "${_sym_all}", "left", '-500px', { fromValue: '0px'}], position: 0, duration: 6000 },
-                { id: "eid1466", tween: [ "style", "${_sym_welleframe}", "left", '4771px', { fromValue: '0px'}], position: 0, duration: 6000 }            ]
-        }
-    }
-},
-"sym_all": {
-    version: "3.0.0",
-    minimumCompatibleVersion: "3.0.0",
-    build: "3.0.0.322",
-    baseState: "Base State",
-    scaleToFit: "none",
-    centerStage: "none",
-    initialState: "Base State",
-    gpuAccelerate: false,
-    resizeInstances: false,
-    content: {
-            dom: [
-                {
-                    id: 'titela',
-                    type: 'image',
-                    rect: ['-52525px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/titela.svg', '0px', '0px']
-                },
-                {
-                    id: 'titelb',
-                    type: 'image',
-                    rect: ['-52525px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/titelb.svg', '0px', '0px']
-                },
-                {
-                    id: 'atxta_3',
-                    type: 'image',
-                    rect: ['-50477px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/atxta_3.svg', '0px', '0px']
-                },
-                {
-                    id: 'atxta_2',
-                    type: 'image',
-                    rect: ['-50477px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/atxta_2.svg', '0px', '0px']
-                },
-                {
-                    id: 'atxtb_3',
-                    type: 'image',
-                    rect: ['-50477px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/atxtb_3.svg', '0px', '0px']
-                },
-                {
-                    id: 'atxta_1',
-                    type: 'image',
-                    rect: ['-50477px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/atxta_1.svg', '0px', '0px']
-                },
-                {
-                    id: 'atxtb_2',
-                    type: 'image',
-                    rect: ['-50477px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/atxtb_2.svg', '0px', '0px']
-                },
-                {
-                    id: 'atxtb_1',
-                    type: 'image',
-                    rect: ['-50477px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/atxtb_1.svg', '0px', '0px']
-                },
-                {
-                    id: 'aheada_1',
-                    type: 'image',
-                    rect: ['-49247px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/aheada_1.svg', '0px', '0px']
-                },
-                {
-                    id: 'aheada_2',
-                    type: 'image',
-                    rect: ['-49247px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/aheada_2.svg', '0px', '0px']
-                },
-                {
-                    id: 'aheadb_1',
-                    type: 'image',
-                    rect: ['-49247px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/aheadb_1.svg', '0px', '0px']
-                },
-                {
-                    id: 'aheadb_2',
-                    type: 'image',
-                    rect: ['-49247px', '3px', '2048px', '1536px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/aheadb_2.svg', '0px', '0px']
-                }
-            ],
-            symbolInstances: [
-            ]
-        },
-    states: {
-        "Base State": {
-            "${_titela}": [
-                ["style", "left", '0px'],
-                ["style", "top", '4px']
-            ],
-            "${_aheada_2}": [
-                ["style", "left", '4096px'],
-                ["style", "top", '0px']
-            ],
-            "${_aheadb_2}": [
-                ["style", "left", '4096px'],
-                ["style", "top", '0px']
-            ],
-            "${_atxta_1}": [
-                ["style", "left", '2068px'],
-                ["style", "top", '0px']
-            ],
-            "${_atxta_3}": [
-                ["style", "left", '2078px'],
-                ["style", "top", '0px']
-            ],
-            "${_atxtb_2}": [
-                ["style", "left", '2058px'],
-                ["style", "top", '0px']
-            ],
-            "${_titelb}": [
-                ["style", "left", '0px'],
-                ["style", "top", '0px']
-            ],
-            "${_atxtb_1}": [
-                ["style", "left", '2048px'],
-                ["style", "top", '0px']
-            ],
-            "${_aheada_1}": [
-                ["style", "left", '4096px'],
-                ["style", "top", '0px']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '1536px'],
-                ["style", "overflow", 'hidden'],
-                ["style", "width", '6144px']
-            ],
-            "${_atxtb_3}": [
-                ["style", "left", '2074px'],
-                ["style", "top", '0px']
-            ],
-            "${_atxta_2}": [
-                ["style", "left", '2148px'],
-                ["style", "top", '0px']
-            ],
-            "${_aheadb_1}": [
-                ["style", "left", '4096px'],
-                ["style", "top", '0px']
-            ]
-        }
-    },
-    timelines: {
-        "Default Timeline": {
-            fromState: "Base State",
-            toState: "",
-            duration: 6000,
-            autoPlay: true,
-            timeline: [
-                { id: "eid1607", tween: [ "style", "${_aheada_2}", "left", '3896px', { fromValue: '4096px'}], position: 5000, duration: 750 },
-                { id: "eid1378", tween: [ "style", "${_titela}", "top", '4px', { fromValue: '4px'}], position: 0, duration: 0 },
-                { id: "eid1577", tween: [ "style", "${_atxtb_1}", "left", '1648px', { fromValue: '2048px'}], position: 2250, duration: 750 },
-                { id: "eid1585", tween: [ "style", "${_aheadb_2}", "top", '0px', { fromValue: '0px'}], position: 5000, duration: 0 },
-                { id: "eid1575", tween: [ "style", "${_atxta_1}", "left", '1768px', { fromValue: '2068px'}], position: 2250, duration: 750 },
-                { id: "eid1606", tween: [ "style", "${_aheadb_1}", "left", '3796px', { fromValue: '4096px'}], position: 5000, duration: 750 },
-                { id: "eid1524", tween: [ "style", "${_atxtb_1}", "top", '0px', { fromValue: '0px'}], position: 2250, duration: 0 },
-                { id: "eid1547", tween: [ "style", "${_atxtb_1}", "top", '0px', { fromValue: '0px'}], position: 6000, duration: 0 },
-                { id: "eid1533", tween: [ "style", "${_atxtb_3}", "top", '0px', { fromValue: '0px'}], position: 2250, duration: 0 },
-                { id: "eid1527", tween: [ "style", "${_atxtb_2}", "top", '0px', { fromValue: '0px'}], position: 2250, duration: 0 },
-                { id: "eid1587", tween: [ "style", "${_aheadb_1}", "top", '0px', { fromValue: '0px'}], position: 5000, duration: 0 },
-                { id: "eid1605", tween: [ "style", "${_aheadb_2}", "left", '3796px', { fromValue: '4096px'}], position: 5000, duration: 750 },
-                { id: "eid1574", tween: [ "style", "${_atxtb_3}", "left", '1874px', { fromValue: '2074px'}], position: 2250, duration: 750 },
-                { id: "eid1530", tween: [ "style", "${_atxta_1}", "top", '0px', { fromValue: '0px'}], position: 2250, duration: 0 },
-                { id: "eid1362", tween: [ "style", "${_titelb}", "left", '0px', { fromValue: '0px'}], position: 0, duration: 0 },
-                { id: "eid1363", tween: [ "style", "${_titela}", "left", '0px', { fromValue: '0px'}], position: 0, duration: 0 },
-                { id: "eid1589", tween: [ "style", "${_aheada_2}", "top", '0px', { fromValue: '0px'}], position: 5000, duration: 0 },
-                { id: "eid1591", tween: [ "style", "${_aheada_1}", "top", '0px', { fromValue: '0px'}], position: 5000, duration: 0 },
-                { id: "eid1622", tween: [ "style", "${_titelb}", "top", '10px', { fromValue: '0px'}], position: 0, duration: 6000 },
-                { id: "eid1608", tween: [ "style", "${_aheada_1}", "left", '3896px', { fromValue: '4096px'}], position: 5000, duration: 750 },
-                { id: "eid1576", tween: [ "style", "${_atxtb_2}", "left", '1758px', { fromValue: '2058px'}], position: 2250, duration: 750 },
-                { id: "eid1536", tween: [ "style", "${_atxta_2}", "top", '0px', { fromValue: '0px'}], position: 2250, duration: 0 },
-                { id: "eid1539", tween: [ "style", "${_atxta_3}", "top", '0px', { fromValue: '0px'}], position: 2250, duration: 0 },
-                { id: "eid1573", tween: [ "style", "${_atxta_2}", "left", '1948px', { fromValue: '2148px'}], position: 2250, duration: 750 },
-                { id: "eid1611", tween: [ "style", "${_atxta_3}", "left", '1978px', { fromValue: '2078px'}], position: 2250, duration: 750 }            ]
-        }
-    }
-},
-"sym_welle": {
-    version: "3.0.0",
-    minimumCompatibleVersion: "3.0.0",
-    build: "3.0.0.322",
-    baseState: "Base State",
-    scaleToFit: "none",
-    centerStage: "none",
-    initialState: "Base State",
-    gpuAccelerate: false,
-    resizeInstances: false,
-    content: {
-            dom: [
-                {
-                    rect: ['0px', '-1364px', '2048px', '1536px', 'auto', 'auto'],
-                    id: 'Rectangle2',
-                    stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                    type: 'rect',
-                    fill: ['rgba(255,0,80,1.00)']
-                },
-                {
-                    id: 'welle12',
-                    type: 'image',
-                    rect: ['0', '0', '4096px', '800px', 'auto', 'auto'],
-                    fill: ['rgba(0,0,0,0)', 'images/welle1.svg', '0px', '0px']
-                }
-            ],
-            symbolInstances: [
-            ]
-        },
-    states: {
-        "Base State": {
-            "${_Rectangle2}": [
-                ["style", "top", '-1317px'],
-                ["color", "background-color", 'rgba(255,0,80,1.00)'],
-                ["style", "left", '0px'],
-                ["style", "width", '2048px']
-            ],
-            "${_welle12}": [
-                ["style", "top", '47px'],
-                ["style", "left", '0px'],
-                ["transform", "scaleY", '1']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '1536px'],
-                ["style", "width", '2048px'],
-                ["style", "overflow", 'hidden']
-            ]
-        }
-    },
-    timelines: {
-        "Default Timeline": {
-            fromState: "Base State",
-            toState: "",
-            duration: 3500,
-            autoPlay: true,
-            labels: {
-                "loop_welle": 0
-            },
-            timeline: [
-                { id: "eid1453", tween: [ "transform", "${_welle12}", "scaleY", '0.8', { fromValue: '1'}], position: 0, duration: 583, easing: "easeInOutQuad" },
-                { id: "eid1454", tween: [ "transform", "${_welle12}", "scaleY", '1', { fromValue: '0.8'}], position: 583, duration: 583, easing: "easeInOutQuad" },
-                { id: "eid1455", tween: [ "transform", "${_welle12}", "scaleY", '0.9', { fromValue: '1'}], position: 1167, duration: 583, easing: "easeInOutQuad" },
-                { id: "eid1456", tween: [ "transform", "${_welle12}", "scaleY", '1', { fromValue: '0.9'}], position: 1750, duration: 583, easing: "easeInOutQuad" },
-                { id: "eid1457", tween: [ "transform", "${_welle12}", "scaleY", '0.8', { fromValue: '1'}], position: 2333, duration: 583, easing: "easeInOutQuad" },
-                { id: "eid1458", tween: [ "transform", "${_welle12}", "scaleY", '1', { fromValue: '0.8'}], position: 2917, duration: 583, easing: "easeInOutQuad" },
-                { id: "eid1475", tween: [ "style", "${_welle12}", "top", '47px', { fromValue: '47px'}], position: 0, duration: 0 },
-                { id: "eid1461", tween: [ "style", "${_welle12}", "left", '-2048px', { fromValue: '0px'}], position: 0, duration: 3500 },
-                { id: "eid1462", tween: [ "style", "${_Rectangle2}", "left", '0px', { fromValue: '0px'}], position: 0, duration: 0 },
-                { id: "eid1476", tween: [ "style", "${_Rectangle2}", "top", '-1317px', { fromValue: '-1317px'}], position: 0, duration: 0 }            ]
-        }
-    }
-},
-"sym_welleframe": {
-    version: "3.0.0",
-    minimumCompatibleVersion: "3.0.0",
-    build: "3.0.0.322",
-    baseState: "Base State",
-    scaleToFit: "none",
-    centerStage: "none",
-    initialState: "Base State",
-    gpuAccelerate: false,
-    resizeInstances: false,
-    content: {
-            dom: [
-                {
-                    id: 'sym_welle',
-                    type: 'rect',
-                    rect: ['0px', '0px', 'auto', 'auto', 'auto', 'auto']
-                }
-            ],
-            symbolInstances: [
-            {
-                id: 'sym_welle',
-                symbolName: 'sym_welle',
-                autoPlay: {
+        };
 
-               }
-            }            ]
-        },
-    states: {
-        "Base State": {
-            "${_sym_welle}": [
-                ["style", "top", '0px'],
-                ["style", "left", '0px'],
-                ["style", "overflow", 'visible']
-            ],
-            "${symbolSelector}": [
-                ["style", "height", '1536px'],
-                ["style", "width", '2048px']
-            ]
-        }
-    },
-    timelines: {
-        "Default Timeline": {
-            fromState: "Base State",
-            toState: "",
-            duration: 3500,
-            autoPlay: false,
-            timeline: [
-            ]
-        }
-    }
-}
-};
+    AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
 
-
-Edge.registerCompositionDefn(compId, symbols, fonts, resources, opts);
-
-/**
- * Adobe Edge DOM Ready Event Handler
- */
-$(window).ready(function() {
-     Edge.launchComposition(compId);
-});
-})(jQuery, AdobeEdge, "EDGE-5245403");
+    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("thread_1_edgeActions.js");
+})("EDGE-5245403");
