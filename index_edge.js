@@ -96,75 +96,75 @@
                 content: {
                     dom: [
                         {
-                            rect: [0, 4, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'titela',
                             type: 'image',
+                            id: 'titela',
+                            rect: [0, 4, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/titela.svg', '0px', '0px']
                         },
                         {
-                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'titelb',
                             type: 'image',
+                            id: 'titelb',
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/titelb.svg', '0px', '0px']
                         },
                         {
-                            rect: [2078, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'atxta_3',
                             type: 'image',
+                            id: 'atxta_3',
+                            rect: [2078, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/atxta_3.svg', '0px', '0px']
                         },
                         {
-                            rect: [2148, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'atxta_2',
                             type: 'image',
+                            id: 'atxta_2',
+                            rect: [2148, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/atxta_2.svg', '0px', '0px']
                         },
                         {
-                            rect: [2074, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'atxtb_3',
                             type: 'image',
+                            id: 'atxtb_3',
+                            rect: [2074, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/atxtb_3.svg', '0px', '0px']
                         },
                         {
-                            rect: [2068, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'atxta_1',
                             type: 'image',
+                            id: 'atxta_1',
+                            rect: [2068, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/atxta_1.svg', '0px', '0px']
                         },
                         {
-                            rect: [2058, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'atxtb_2',
                             type: 'image',
+                            id: 'atxtb_2',
+                            rect: [2058, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/atxtb_2.svg', '0px', '0px']
                         },
                         {
-                            rect: [2048, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'atxtb_1',
                             type: 'image',
+                            id: 'atxtb_1',
+                            rect: [2048, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/atxtb_1.svg', '0px', '0px']
                         },
                         {
-                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'aheada_1',
                             type: 'image',
+                            id: 'aheada_1',
+                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/aheada_1.svg', '0px', '0px']
                         },
                         {
-                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'aheada_2',
                             type: 'image',
+                            id: 'aheada_2',
+                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/aheada_2.svg', '0px', '0px']
                         },
                         {
-                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'aheadb_1',
                             type: 'image',
+                            id: 'aheadb_1',
+                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/aheadb_1.svg', '0px', '0px']
                         },
                         {
-                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'aheadb_2',
                             type: 'image',
+                            id: 'aheadb_2',
+                            rect: [4096, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/aheadb_2.svg', '0px', '0px']
                         }
                     ],
@@ -250,24 +250,14 @@
                             '3896px'
                         ],
                         [
-                            "eid1524",
-                            "top",
+                            "eid1573",
+                            "left",
                             2250,
-                            0,
+                            750,
                             "linear",
-                            "${atxtb_1}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid1547",
-                            "top",
-                            6000,
-                            0,
-                            "linear",
-                            "${atxtb_1}",
-                            '0px',
-                            '0px'
+                            "${atxta_2}",
+                            '2148px',
+                            '1948px'
                         ],
                         [
                             "eid1362",
@@ -290,14 +280,24 @@
                             '0px'
                         ],
                         [
-                            "eid1611",
-                            "left",
+                            "eid1524",
+                            "top",
                             2250,
-                            750,
+                            0,
                             "linear",
-                            "${atxta_3}",
-                            '2078px',
-                            '1978px'
+                            "${atxtb_1}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1547",
+                            "top",
+                            6000,
+                            0,
+                            "linear",
+                            "${atxtb_1}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid1363",
@@ -310,14 +310,14 @@
                             '0px'
                         ],
                         [
-                            "eid1573",
-                            "left",
+                            "eid1530",
+                            "top",
                             2250,
-                            750,
+                            0,
                             "linear",
-                            "${atxta_2}",
-                            '2148px',
-                            '1948px'
+                            "${atxta_1}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid1605",
@@ -340,16 +340,6 @@
                             '1874px'
                         ],
                         [
-                            "eid1530",
-                            "top",
-                            2250,
-                            0,
-                            "linear",
-                            "${atxta_1}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
                             "eid1576",
                             "left",
                             2250,
@@ -360,14 +350,24 @@
                             '1758px'
                         ],
                         [
-                            "eid1527",
+                            "eid1533",
                             "top",
                             2250,
                             0,
                             "linear",
-                            "${atxtb_2}",
+                            "${atxtb_3}",
                             '0px',
                             '0px'
+                        ],
+                        [
+                            "eid1611",
+                            "left",
+                            2250,
+                            750,
+                            "linear",
+                            "${atxta_3}",
+                            '2078px',
+                            '1978px'
                         ],
                         [
                             "eid1539",
@@ -390,12 +390,12 @@
                             '10px'
                         ],
                         [
-                            "eid1533",
+                            "eid1527",
                             "top",
                             2250,
                             0,
                             "linear",
-                            "${atxtb_3}",
+                            "${atxtb_2}",
                             '0px',
                             '0px'
                         ],
@@ -442,16 +442,16 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: [0, -1317, 2048, '1536px', 'auto', 'auto'],
                             id: 'Rectangle2',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            rect: [0, -1317, 2048, '1536px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(255,0,80,1.00)']
                         },
                         {
-                            rect: [0, 47, '4096px', '800px', 'auto', 'auto'],
-                            id: 'welle12',
                             type: 'image',
+                            id: 'welle12',
+                            rect: [0, 47, '4096px', '800px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/welle1.svg', '0px', '0px']
                         }
                     ],
@@ -607,5 +607,5 @@
 
     AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
 
-    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("thread_1_edgeActions.js");
+    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("index_edgeActions.js");
 })("EDGE-5245403");
