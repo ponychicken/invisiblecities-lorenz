@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="2048px" height="1536px" viewBox="0 0 2048 1536" style="enable-background:new 0 0 2048 1536;" xml:space="preserve">
-<rect x="0.981" y="1.019" style="fill:#17192D;" width="2048.115" height="1534.44"/>
-<path style="fill:#FF0050;" d="M2047.5,1.019H0.981v770.743c170.667-334.016,341.333-429.445,512,0
-	c163.785,412.127,341.332,334.012,512,0c170.666-334.016,341.332-286.298,512,0c173.721,291.42,341.332,334.012,512,0L2047.5,1.019z
-	"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1536" viewBox="0 0 2048 1536"><path fill="#17192D" d="M.98 1.02h2048.116v1534.44H.98z"/><path d="M2047.5 1.02H.98V771.76c170.668-334.016 341.334-429.445 512 0 163.786 412.127 341.333 334.012 512 0 170.667-334.016 341.333-286.298 512 0 173.722 291.42 341.333 334.012 512 0L2047.5 1.02z" fill="#FF0050"/></svg>
