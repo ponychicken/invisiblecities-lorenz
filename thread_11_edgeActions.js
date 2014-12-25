@@ -1,127 +1,125 @@
 /***********************
-* Adobe Edge Animate Composition Actions
-*
-* Edit this file with caution, being careful to preserve 
-* function signatures and comments starting with 'Edge' to maintain the 
-* ability to interact with these actions from within Adobe Edge Animate
-*
-***********************/
-(function($, Edge, compId){
-var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonly used Edge classes
+ * Adobe Edge Animate Composition Actions
+ *
+ * Edit this file with caution, being careful to preserve
+ * function signatures and comments starting with 'Edge' to maintain the
+ * ability to interact with these actions from within Adobe Edge Animate
+ *
+ ***********************/
+(function($, Edge, compId) {
+  var Composition = Edge.Composition,
+    Symbol = Edge.Symbol; // aliases for commonly used Edge classes
 
-   //Edge symbol: 'stage'
-   (function(symbolName) {
-      
-      
-      Symbol.bindElementAction(compId, symbolName, "${Stage}", "scroll", function(sym, e) {
-         var myCalc = e.currentTarget.scrollLeft/(e.currentTarget.scrollWidth-e.currentTarget.clientWidth);
-         var pos = Math.round( myCalc * sym.getDuration() );
-         var poss = Math.round( myCalc * sym.getSymbol("sym_all").getDuration() );
-         
-         sym.stop(pos);
-         sym.getSymbol("sym_all").stop(poss);
-         
+  //Edge symbol: 'stage'
+  (function(symbolName) {
+    ay = 0;
+    ax = 0;
 
-      });
-      //Edge binding end
+    Symbol.bindElementAction(compId, symbolName, "${Stage}", "scroll", function(sym, e) {
+      var myCalc = e.currentTarget.scrollLeft / (e.currentTarget.scrollWidth - e.currentTarget.clientWidth);
+      var pos = Math.round(myCalc * sym.getDuration());
+      var poss = Math.round(myCalc * sym.getSymbol("sym_all").getDuration());
 
-      Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
-         //Detect if the browser supports DeviceMotionEvent
-         if (window.DeviceMotionEvent != undefined) {
-         
-         	//ondevicemotion is fired when iOS device detects motion
-         	window.ondevicemotion = function(e) {
-         		//ax is the movement on the x axis.
-         		//This motion is used to move the ship in the game
-         		ax = event.accelerationIncludingGravity.x;
-         	 	ay = event.accelerationIncludingGravity.y;
-         
-         
-         	sym.getSymbol("sym_welleframe").getSymbol("sym_welle_1").getSymbolElement().css("margin-top", ax * 90+"px" );
-         
-         	}
-         }
+      sym.stop(pos);
+      sym.getSymbol("sym_all").stop(poss);
 
-      });
-      //Edge binding end
 
-      
+    });
+    //Edge binding end
 
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 10000, function(sym, e) {
-         // Navigate to a new URL in the current window
-         // (replace "_self" with appropriate target attribute for a new window)
-         window.open("thread_1.html", "_self");
+    Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
+      //Detect if the browser supports DeviceMotionEvent
+      if (window.DeviceMotionEvent !== undefined) {
 
-      });
-      //Edge binding end
+        //ondevicemotion is fired when iOS device detects motion
+        window.ondevicemotion = function(e) {
+          //ax is the movement on the x axis.
+          ax = (event.accelerationIncludingGravity.x + ax * 4) / 5;
+          ay = (event.accelerationIncludingGravity.y + ay * 4) / 5;
 
-   })("stage");
-   //Edge symbol end:'stage'
 
-   //=========================================================
-   
-   //Edge symbol: 'sym_f1b'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3000, function(sym, e) {
-         sym.play('oo_f1b');
+          sym.getSymbol("sym_welleframe").getSymbol("sym_welle_1").getSymbolElement().css("margin-top", ax * 90 + "px");
+        };
+      }
 
-      });
-      //Edge binding end
+    });
+    //Edge binding end
 
-   })("sym_f1b");
-   //Edge symbol end:'sym_f1b'
+    Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 10000, function(sym, e) {
+      // Navigate to a new URL in the current window
+      // (replace "_self" with appropriate target attribute for a new window)
+      window.open("thread_1.html", "_self");
 
-   //=========================================================
-   
-   //Edge symbol: 'sym_f1a'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3000, function(sym, e) {
-         sym.play('oo_f1a');
+    });
+    //Edge binding end
 
-      });
-      //Edge binding end
+  })("stage");
+  //Edge symbol end:'stage'
 
-   })("sym_f1a");
-   //Edge symbol end:'sym_f1a'
+  //=========================================================
 
-   //=========================================================
-   
-   //Edge symbol: 'sym_all'
-   (function(symbolName) {   
-   
-   })("sym_all");
-   //Edge symbol end:'sym_all'
+  //Edge symbol: 'sym_f1b'
+  (function(symbolName) {
 
-   //=========================================================
-   
-   //Edge symbol: 'sym_welle_1'
-   (function(symbolName) {   
-   
-      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3500, function(sym, e) {
-         sym.play('loop_welle');
+    Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3000, function(sym, e) {
+      sym.play('oo_f1b');
 
-      });
-      //Edge binding end
+    });
+    //Edge binding end
 
-   })("sym_welle_1");
-   //Edge symbol end:'sym_welle_1'
+  })("sym_f1b");
+  //Edge symbol end:'sym_f1b'
 
-   //=========================================================
-   
-   //Edge symbol: 'sym_welleframe'
-   (function(symbolName) {   
-   
-   })("sym_welleframe");
-   //Edge symbol end:'sym_welleframe'
+  //=========================================================
 
-   //=========================================================
-   
-   //Edge symbol: 'Preloader'
-   (function(symbolName) {   
-   
-   })("Preloader");
-   //Edge symbol end:'Preloader'
+  //Edge symbol: 'sym_f1a'
+  (function(symbolName) {
+
+    Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3000, function(sym, e) {
+      sym.play('oo_f1a');
+
+    });
+    //Edge binding end
+
+  })("sym_f1a");
+  //Edge symbol end:'sym_f1a'
+
+  //=========================================================
+
+  //Edge symbol: 'sym_all'
+  (function(symbolName) {
+
+  })("sym_all");
+  //Edge symbol end:'sym_all'
+
+  //=========================================================
+
+  //Edge symbol: 'sym_welle_1'
+  (function(symbolName) {
+
+    Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3500, function(sym, e) {
+      sym.play('loop_welle');
+
+    });
+    //Edge binding end
+
+  })("sym_welle_1");
+  //Edge symbol end:'sym_welle_1'
+
+  //=========================================================
+
+  //Edge symbol: 'sym_welleframe'
+  (function(symbolName) {
+
+  })("sym_welleframe");
+  //Edge symbol end:'sym_welleframe'
+
+  //=========================================================
+
+  //Edge symbol: 'Preloader'
+  (function(symbolName) {
+
+  })("Preloader");
+  //Edge symbol end:'Preloader'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-5245403");

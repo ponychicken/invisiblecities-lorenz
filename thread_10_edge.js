@@ -106,80 +106,80 @@
                 content: {
                     dom: [
                         {
-                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1b_arm_l',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_arm_l',
                             type: 'image',
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_arm_l.svg', '0px', '0px']
                         },
                         {
-                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1b_arm_r',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_arm_r',
                             type: 'image',
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_arm_r.svg', '0px', '0px']
                         },
                         {
-                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1b_beine_inner',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_beine_inner',
                             type: 'image',
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_beine_inner.svg', '0px', '0px']
                         },
                         {
-                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1b_beinout_l',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_beinout_l',
                             type: 'image',
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_beinout_l.svg', '0px', '0px']
                         },
                         {
-                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1b_beinout_r',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_beinout_r',
                             type: 'image',
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_beinout_r.svg', '0px', '0px']
                         },
                         {
-                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1b_corpus',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_corpus',
                             type: 'image',
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_corpus.svg', '0px', '0px']
                         },
                         {
-                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1b_fuss_l',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_fuss_l',
                             type: 'image',
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_fuss_l.svg', '0px', '0px']
                         },
                         {
-                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1b_fuss_r',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_fuss_r',
                             type: 'image',
+                            rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_fuss_r.svg', '0px', '0px']
                         },
                         {
-                            rect: [333, 1227, 200, 150, 'auto', 'auto'],
-                            id: 'e1b_hand_l',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_hand_l',
                             type: 'image',
+                            rect: [333, 1227, 200, 150, 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_hand_l.svg', '0px', '0px']
                         },
                         {
-                            rect: [337, 493, 200, 150, 'auto', 'auto'],
-                            id: 'e1b_hand_r',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_hand_r',
                             type: 'image',
+                            rect: [337, 493, 200, 150, 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_hand_r.svg', '0px', '0px']
                         },
                         {
-                            rect: [25, 838, 300, 200, 'auto', 'auto'],
-                            id: 'e1b_kopf',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1b_kopf',
                             type: 'image',
+                            rect: [25, 838, 300, 200, 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1b_kopf.svg', '0px', '0px']
                         }
                     ],
@@ -217,12 +217,12 @@
                             '493px'
                         ],
                         [
-                            "eid4223",
-                            "left",
+                            "eid4234",
+                            "top",
                             0,
                             0,
                             "linear",
-                            "${e1b_corpus}",
+                            "${e1b_arm_r}",
                             '0px',
                             '0px'
                         ],
@@ -247,12 +247,12 @@
                             '-360deg'
                         ],
                         [
-                            "eid4228",
-                            "top",
+                            "eid4226",
+                            "left",
                             0,
                             0,
                             "linear",
-                            "${e1b_beinout_l}",
+                            "${e1b_beinout_r}",
                             '0px',
                             '0px'
                         ],
@@ -447,22 +447,22 @@
                             '360deg'
                         ],
                         [
-                            "eid4234",
+                            "eid4218",
+                            "rotateZ",
+                            0,
+                            0,
+                            "linear",
+                            "${e1b_fuss_r}",
+                            '0deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid4228",
                             "top",
                             0,
                             0,
                             "linear",
-                            "${e1b_arm_r}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid4226",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${e1b_beinout_r}",
+                            "${e1b_beinout_l}",
                             '0px',
                             '0px'
                         ],
@@ -487,12 +487,12 @@
                             '300px'
                         ],
                         [
-                            "eid4230",
+                            "eid4239",
                             "rotateZ",
                             0,
                             0,
                             "linear",
-                            "${e1b_beinout_l}",
+                            "${e1b_arm_l}",
                             '0deg',
                             '0deg'
                         ],
@@ -505,16 +505,6 @@
                             "${e1b_fuss_r}",
                             '0px',
                             '0px'
-                        ],
-                        [
-                            "eid4207",
-                            "height",
-                            0,
-                            0,
-                            "linear",
-                            "${e1b_hand_r}",
-                            '150px',
-                            '150px'
                         ],
                         [
                             "eid4225",
@@ -535,6 +525,16 @@
                             "${e1b_hand_l}",
                             '200px',
                             '200px'
+                        ],
+                        [
+                            "eid4223",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${e1b_corpus}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid4214",
@@ -577,14 +577,14 @@
                             '200px'
                         ],
                         [
-                            "eid4239",
-                            "rotateZ",
+                            "eid4207",
+                            "height",
                             0,
                             0,
                             "linear",
-                            "${e1b_arm_l}",
-                            '0deg',
-                            '0deg'
+                            "${e1b_hand_r}",
+                            '150px',
+                            '150px'
                         ],
                         [
                             "eid4229",
@@ -597,12 +597,12 @@
                             '0px'
                         ],
                         [
-                            "eid4218",
+                            "eid4230",
                             "rotateZ",
                             0,
                             0,
                             "linear",
-                            "${e1b_fuss_r}",
+                            "${e1b_beinout_l}",
                             '0deg',
                             '0deg'
                         ]
@@ -619,54 +619,54 @@
                 content: {
                     dom: [
                         {
-                            rect: [1, 2, '2048px', '1536px', 'auto', 'auto'],
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            rect: [1, 2, '2048px', '1536px', 'auto', 'auto'],
                             id: 'e1a_corpus_inner',
                             opacity: '1',
                             type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/e1a_corpus_inner.svg', '0px', '0px']
                         },
                         {
-                            rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
                             id: 'e1a_corpus_outer',
                             opacity: '1',
                             type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/e1a_corpus_outer.svg', '0px', '0px']
                         },
                         {
-                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1a_fuss_l',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1a_fuss_l',
                             type: 'image',
+                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1a_fuss_l.svg', '0px', '0px']
                         },
                         {
-                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1a_fuss_r',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1a_fuss_r',
                             type: 'image',
+                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1a_fuss_r.svg', '0px', '0px']
                         },
                         {
-                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1a_hand_l',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1a_hand_l',
                             type: 'image',
+                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1a_hand_l.svg', '0px', '0px']
                         },
                         {
-                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1a_hand_r',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1a_hand_r',
                             type: 'image',
+                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1a_hand_r.svg', '0px', '0px']
                         },
                         {
-                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
-                            id: 'e1a_kopf',
                             transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            id: 'e1a_kopf',
                             type: 'image',
+                            rect: [1, 1, '2048px', '1536px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/e1a_kopf.svg', '0px', '0px']
                         }
                     ],
@@ -2084,6 +2084,86 @@
                             '0deg'
                         ],
                         [
+                            "eid4015",
+                            "left",
+                            0,
+                            500,
+                            "linear",
+                            "${e1a_kopf}",
+                            '1px',
+                            '4px'
+                        ],
+                        [
+                            "eid4016",
+                            "left",
+                            500,
+                            500,
+                            "linear",
+                            "${e1a_kopf}",
+                            '4px',
+                            '1px'
+                        ],
+                        [
+                            "eid4017",
+                            "left",
+                            1000,
+                            500,
+                            "linear",
+                            "${e1a_kopf}",
+                            '1px',
+                            '4px'
+                        ],
+                        [
+                            "eid4018",
+                            "left",
+                            1500,
+                            500,
+                            "linear",
+                            "${e1a_kopf}",
+                            '4px',
+                            '1px'
+                        ],
+                        [
+                            "eid4019",
+                            "left",
+                            2000,
+                            500,
+                            "linear",
+                            "${e1a_kopf}",
+                            '1px',
+                            '4px'
+                        ],
+                        [
+                            "eid4020",
+                            "left",
+                            2500,
+                            500,
+                            "linear",
+                            "${e1a_kopf}",
+                            '4px',
+                            '1px'
+                        ],
+                        [
+                            "eid4021",
+                            "left",
+                            3000,
+                            500,
+                            "linear",
+                            "${e1a_kopf}",
+                            '1px',
+                            '4px'
+                        ],
+                        [
+                            "eid4022",
+                            "left",
+                            3500,
+                            500,
+                            "linear",
+                            "${e1a_kopf}",
+                            '4px',
+                            '1px'
+                        ],
+                        [
                             "eid4079",
                             "top",
                             0,
@@ -2162,86 +2242,6 @@
                             "${e1a_fuss_r}",
                             '23px',
                             '1px'
-                        ],
-                        [
-                            "eid4071",
-                            "rotateZ",
-                            0,
-                            500,
-                            "linear",
-                            "${e1a_hand_l}",
-                            '0deg',
-                            '-2deg'
-                        ],
-                        [
-                            "eid4072",
-                            "rotateZ",
-                            500,
-                            500,
-                            "linear",
-                            "${e1a_hand_l}",
-                            '-2deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid4073",
-                            "rotateZ",
-                            1000,
-                            500,
-                            "linear",
-                            "${e1a_hand_l}",
-                            '0deg',
-                            '-2deg'
-                        ],
-                        [
-                            "eid4074",
-                            "rotateZ",
-                            1500,
-                            500,
-                            "linear",
-                            "${e1a_hand_l}",
-                            '-2deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid4075",
-                            "rotateZ",
-                            2000,
-                            500,
-                            "linear",
-                            "${e1a_hand_l}",
-                            '0deg',
-                            '-2deg'
-                        ],
-                        [
-                            "eid4076",
-                            "rotateZ",
-                            2500,
-                            500,
-                            "linear",
-                            "${e1a_hand_l}",
-                            '-2deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid4077",
-                            "rotateZ",
-                            3000,
-                            500,
-                            "linear",
-                            "${e1a_hand_l}",
-                            '0deg',
-                            '-2deg'
-                        ],
-                        [
-                            "eid4078",
-                            "rotateZ",
-                            3500,
-                            500,
-                            "linear",
-                            "${e1a_hand_l}",
-                            '-2deg',
-                            '0deg'
                         ],
                         [
                             "eid4047",
@@ -2524,84 +2524,84 @@
                             '0deg'
                         ],
                         [
-                            "eid4015",
-                            "left",
+                            "eid4071",
+                            "rotateZ",
                             0,
                             500,
                             "linear",
-                            "${e1a_kopf}",
-                            '1px',
-                            '4px'
+                            "${e1a_hand_l}",
+                            '0deg',
+                            '-2deg'
                         ],
                         [
-                            "eid4016",
-                            "left",
+                            "eid4072",
+                            "rotateZ",
                             500,
                             500,
                             "linear",
-                            "${e1a_kopf}",
-                            '4px',
-                            '1px'
+                            "${e1a_hand_l}",
+                            '-2deg',
+                            '0deg'
                         ],
                         [
-                            "eid4017",
-                            "left",
+                            "eid4073",
+                            "rotateZ",
                             1000,
                             500,
                             "linear",
-                            "${e1a_kopf}",
-                            '1px',
-                            '4px'
+                            "${e1a_hand_l}",
+                            '0deg',
+                            '-2deg'
                         ],
                         [
-                            "eid4018",
-                            "left",
+                            "eid4074",
+                            "rotateZ",
                             1500,
                             500,
                             "linear",
-                            "${e1a_kopf}",
-                            '4px',
-                            '1px'
+                            "${e1a_hand_l}",
+                            '-2deg',
+                            '0deg'
                         ],
                         [
-                            "eid4019",
-                            "left",
+                            "eid4075",
+                            "rotateZ",
                             2000,
                             500,
                             "linear",
-                            "${e1a_kopf}",
-                            '1px',
-                            '4px'
+                            "${e1a_hand_l}",
+                            '0deg',
+                            '-2deg'
                         ],
                         [
-                            "eid4020",
-                            "left",
+                            "eid4076",
+                            "rotateZ",
                             2500,
                             500,
                             "linear",
-                            "${e1a_kopf}",
-                            '4px',
-                            '1px'
+                            "${e1a_hand_l}",
+                            '-2deg',
+                            '0deg'
                         ],
                         [
-                            "eid4021",
-                            "left",
+                            "eid4077",
+                            "rotateZ",
                             3000,
                             500,
                             "linear",
-                            "${e1a_kopf}",
-                            '1px',
-                            '4px'
+                            "${e1a_hand_l}",
+                            '0deg',
+                            '-2deg'
                         ],
                         [
-                            "eid4022",
-                            "left",
+                            "eid4078",
+                            "rotateZ",
                             3500,
                             500,
                             "linear",
-                            "${e1a_kopf}",
-                            '4px',
-                            '1px'
+                            "${e1a_hand_l}",
+                            '-2deg',
+                            '0deg'
                         ]
                     ]
                 }
@@ -2616,16 +2616,16 @@
                 content: {
                     dom: [
                         {
-                            rect: [0, 0, 2049, 1538, 'auto', 'auto'],
+                            type: 'rect',
                             id: 'sym_e1a',
                             symbolName: 'sym_e1a',
-                            type: 'rect'
+                            rect: [0, 0, 2049, 1538, 'auto', 'auto']
                         },
                         {
-                            rect: [0, 0, 2048, 1536, 'auto', 'auto'],
+                            type: 'rect',
                             id: 'sym_e1b',
                             symbolName: 'sym_e1b',
-                            type: 'rect'
+                            rect: [0, 0, 2048, 1536, 'auto', 'auto']
                         }
                     ],
                     style: {
@@ -2640,22 +2640,12 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid1968",
+                            "eid1966",
                             "top",
                             0,
                             0,
                             "linear",
-                            "${sym_e1a}",
-                            '0px',
-                            '0px'
-                        ],
-                        [
-                            "eid2269",
-                            "top",
-                            4000,
-                            0,
-                            "linear",
-                            "${sym_e1a}",
+                            "${sym_e1b}",
                             '0px',
                             '0px'
                         ],
@@ -2680,12 +2670,22 @@
                             '-600px'
                         ],
                         [
-                            "eid1966",
+                            "eid1968",
                             "top",
                             0,
                             0,
                             "linear",
-                            "${sym_e1b}",
+                            "${sym_e1a}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid2269",
+                            "top",
+                            4000,
+                            0,
+                            "linear",
+                            "${sym_e1a}",
                             '0px',
                             '0px'
                         ],
@@ -2753,16 +2753,16 @@
                 content: {
                     dom: [
                         {
-                            rect: [0, -1343, 2048, '1536px', 'auto', 'auto'],
+                            type: 'rect',
                             id: 'Rectangle2',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            type: 'rect',
+                            rect: [0, -1343, 2048, '1536px', 'auto', 'auto'],
                             fill: ['rgba(255,0,80,1.00)']
                         },
                         {
-                            rect: [0, 21, '4096px', '1250px', 'auto', 'auto'],
-                            id: 'welle9',
                             type: 'image',
+                            id: 'welle9',
+                            rect: [0, 21, '4096px', '1250px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/welle9.svg', '0px', '0px']
                         }
                     ],
