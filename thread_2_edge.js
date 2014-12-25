@@ -106,52 +106,52 @@
                 content: {
                     dom: [
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1a_windel',
                             type: 'image',
+                            id: 'a1a_windel',
                             rect: [55, 106, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1a_windel.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['-6', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1a_kopf',
                             type: 'image',
+                            id: 'a1a_kopf',
                             rect: [75, 103, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['-6', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1a_kopf.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1a_corpus',
                             type: 'image',
+                            id: 'a1a_corpus',
                             rect: [55, 106, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1a_corpus.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1a_beine',
                             type: 'image',
+                            id: 'a1a_beine',
                             rect: [55, 106, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1a_beine.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1a_ball',
                             type: 'image',
+                            id: 'a1a_ball',
                             rect: [76, 112, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1a_ball.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1a_arm_v',
                             type: 'image',
+                            id: 'a1a_arm_v',
                             rect: [76, 112, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1a_arm_v.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1a_arm_h',
                             type: 'image',
+                            id: 'a1a_arm_h',
                             rect: [76, 112, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1a_arm_h.svg', '0px', '0px']
                         }
                     ],
@@ -1009,246 +1009,6 @@
                             '0deg'
                         ],
                         [
-                            "eid78",
-                            "rotateZ",
-                            0,
-                            250,
-                            "linear",
-                            "${a1a_beine}",
-                            '0deg',
-                            '3deg'
-                        ],
-                        [
-                            "eid79",
-                            "rotateZ",
-                            250,
-                            250,
-                            "linear",
-                            "${a1a_beine}",
-                            '3deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid80",
-                            "rotateZ",
-                            500,
-                            375,
-                            "linear",
-                            "${a1a_beine}",
-                            '0deg',
-                            '-3deg'
-                        ],
-                        [
-                            "eid81",
-                            "rotateZ",
-                            875,
-                            625,
-                            "linear",
-                            "${a1a_beine}",
-                            '-3deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid82",
-                            "rotateZ",
-                            1500,
-                            600,
-                            "easeInOutQuad",
-                            "${a1a_beine}",
-                            '0deg',
-                            '1deg'
-                        ],
-                        [
-                            "eid83",
-                            "rotateZ",
-                            2100,
-                            150,
-                            "easeInOutQuad",
-                            "${a1a_beine}",
-                            '1deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid115",
-                            "left",
-                            0,
-                            1500,
-                            "linear",
-                            "${a1a_windel}",
-                            '55px',
-                            '56px'
-                        ],
-                        [
-                            "eid116",
-                            "left",
-                            1500,
-                            750,
-                            "easeInOutQuad",
-                            "${a1a_windel}",
-                            '56px',
-                            '55px'
-                        ],
-                        [
-                            "eid113",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${a1a_windel}",
-                            '106px',
-                            '106px'
-                        ],
-                        [
-                            "eid114",
-                            "top",
-                            1500,
-                            0,
-                            "linear",
-                            "${a1a_windel}",
-                            '106px',
-                            '106px'
-                        ],
-                        [
-                            "eid84",
-                            "top",
-                            0,
-                            0,
-                            "linear",
-                            "${a1a_corpus}",
-                            '106px',
-                            '106px'
-                        ],
-                        [
-                            "eid85",
-                            "top",
-                            1500,
-                            600,
-                            "easeInOutQuad",
-                            "${a1a_corpus}",
-                            '106px',
-                            '104px'
-                        ],
-                        [
-                            "eid86",
-                            "top",
-                            2100,
-                            150,
-                            "easeInOutQuad",
-                            "${a1a_corpus}",
-                            '104px',
-                            '106px'
-                        ],
-                        [
-                            "eid87",
-                            "left",
-                            0,
-                            625,
-                            "easeInOutQuad",
-                            "${a1a_corpus}",
-                            '55px',
-                            '45px'
-                        ],
-                        [
-                            "eid88",
-                            "left",
-                            625,
-                            875,
-                            "easeInOutQuad",
-                            "${a1a_corpus}",
-                            '45px',
-                            '55px'
-                        ],
-                        [
-                            "eid89",
-                            "left",
-                            1500,
-                            600,
-                            "easeInOutQuad",
-                            "${a1a_corpus}",
-                            '55px',
-                            '45px'
-                        ],
-                        [
-                            "eid90",
-                            "left",
-                            2100,
-                            150,
-                            "easeInOutQuad",
-                            "${a1a_corpus}",
-                            '45px',
-                            '55px'
-                        ],
-                        [
-                            "eid71",
-                            "top",
-                            0,
-                            250,
-                            "linear",
-                            "${a1a_beine}",
-                            '106px',
-                            '106px'
-                        ],
-                        [
-                            "eid72",
-                            "top",
-                            250,
-                            250,
-                            "linear",
-                            "${a1a_beine}",
-                            '106px',
-                            '106px'
-                        ],
-                        [
-                            "eid73",
-                            "top",
-                            500,
-                            375,
-                            "linear",
-                            "${a1a_beine}",
-                            '106px',
-                            '128px'
-                        ],
-                        [
-                            "eid74",
-                            "top",
-                            875,
-                            625,
-                            "linear",
-                            "${a1a_beine}",
-                            '128px',
-                            '106px'
-                        ],
-                        [
-                            "eid117",
-                            "rotateZ",
-                            0,
-                            0,
-                            "linear",
-                            "${a1a_windel}",
-                            '0deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid118",
-                            "rotateZ",
-                            1500,
-                            600,
-                            "easeInOutQuad",
-                            "${a1a_windel}",
-                            '0deg',
-                            '1deg'
-                        ],
-                        [
-                            "eid119",
-                            "rotateZ",
-                            2100,
-                            150,
-                            "easeInOutQuad",
-                            "${a1a_windel}",
-                            '1deg',
-                            '0deg'
-                        ],
-                        [
                             "eid56",
                             "left",
                             0,
@@ -1317,6 +1077,246 @@
                             "${a1a_ball}",
                             '76px',
                             '76px'
+                        ],
+                        [
+                            "eid117",
+                            "rotateZ",
+                            0,
+                            0,
+                            "linear",
+                            "${a1a_windel}",
+                            '0deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid118",
+                            "rotateZ",
+                            1500,
+                            600,
+                            "easeInOutQuad",
+                            "${a1a_windel}",
+                            '0deg',
+                            '1deg'
+                        ],
+                        [
+                            "eid119",
+                            "rotateZ",
+                            2100,
+                            150,
+                            "easeInOutQuad",
+                            "${a1a_windel}",
+                            '1deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid113",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${a1a_windel}",
+                            '106px',
+                            '106px'
+                        ],
+                        [
+                            "eid114",
+                            "top",
+                            1500,
+                            0,
+                            "linear",
+                            "${a1a_windel}",
+                            '106px',
+                            '106px'
+                        ],
+                        [
+                            "eid71",
+                            "top",
+                            0,
+                            250,
+                            "linear",
+                            "${a1a_beine}",
+                            '106px',
+                            '106px'
+                        ],
+                        [
+                            "eid72",
+                            "top",
+                            250,
+                            250,
+                            "linear",
+                            "${a1a_beine}",
+                            '106px',
+                            '106px'
+                        ],
+                        [
+                            "eid73",
+                            "top",
+                            500,
+                            375,
+                            "linear",
+                            "${a1a_beine}",
+                            '106px',
+                            '128px'
+                        ],
+                        [
+                            "eid74",
+                            "top",
+                            875,
+                            625,
+                            "linear",
+                            "${a1a_beine}",
+                            '128px',
+                            '106px'
+                        ],
+                        [
+                            "eid87",
+                            "left",
+                            0,
+                            625,
+                            "easeInOutQuad",
+                            "${a1a_corpus}",
+                            '55px',
+                            '45px'
+                        ],
+                        [
+                            "eid88",
+                            "left",
+                            625,
+                            875,
+                            "easeInOutQuad",
+                            "${a1a_corpus}",
+                            '45px',
+                            '55px'
+                        ],
+                        [
+                            "eid89",
+                            "left",
+                            1500,
+                            600,
+                            "easeInOutQuad",
+                            "${a1a_corpus}",
+                            '55px',
+                            '45px'
+                        ],
+                        [
+                            "eid90",
+                            "left",
+                            2100,
+                            150,
+                            "easeInOutQuad",
+                            "${a1a_corpus}",
+                            '45px',
+                            '55px'
+                        ],
+                        [
+                            "eid115",
+                            "left",
+                            0,
+                            1500,
+                            "linear",
+                            "${a1a_windel}",
+                            '55px',
+                            '56px'
+                        ],
+                        [
+                            "eid116",
+                            "left",
+                            1500,
+                            750,
+                            "easeInOutQuad",
+                            "${a1a_windel}",
+                            '56px',
+                            '55px'
+                        ],
+                        [
+                            "eid84",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${a1a_corpus}",
+                            '106px',
+                            '106px'
+                        ],
+                        [
+                            "eid85",
+                            "top",
+                            1500,
+                            600,
+                            "easeInOutQuad",
+                            "${a1a_corpus}",
+                            '106px',
+                            '104px'
+                        ],
+                        [
+                            "eid86",
+                            "top",
+                            2100,
+                            150,
+                            "easeInOutQuad",
+                            "${a1a_corpus}",
+                            '104px',
+                            '106px'
+                        ],
+                        [
+                            "eid78",
+                            "rotateZ",
+                            0,
+                            250,
+                            "linear",
+                            "${a1a_beine}",
+                            '0deg',
+                            '3deg'
+                        ],
+                        [
+                            "eid79",
+                            "rotateZ",
+                            250,
+                            250,
+                            "linear",
+                            "${a1a_beine}",
+                            '3deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid80",
+                            "rotateZ",
+                            500,
+                            375,
+                            "linear",
+                            "${a1a_beine}",
+                            '0deg',
+                            '-3deg'
+                        ],
+                        [
+                            "eid81",
+                            "rotateZ",
+                            875,
+                            625,
+                            "linear",
+                            "${a1a_beine}",
+                            '-3deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid82",
+                            "rotateZ",
+                            1500,
+                            600,
+                            "easeInOutQuad",
+                            "${a1a_beine}",
+                            '0deg',
+                            '1deg'
+                        ],
+                        [
+                            "eid83",
+                            "rotateZ",
+                            2100,
+                            150,
+                            "easeInOutQuad",
+                            "${a1a_beine}",
+                            '1deg',
+                            '0deg'
                         ]
                     ]
                 }
@@ -1331,52 +1331,52 @@
                 content: {
                     dom: [
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1b_windel',
                             type: 'image',
+                            id: 'a1b_windel',
                             rect: [59, 61, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1b_windel.svg', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'a1b_kopf',
                             rect: [39, 53, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'a1b_kopf',
                             transform: [[0, 0, 0], ['-3', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/a1b_kopf.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1b_corpus',
                             type: 'image',
+                            id: 'a1b_corpus',
                             rect: [59, 61, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1b_corpus.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1b_beine',
                             type: 'image',
+                            id: 'a1b_beine',
                             rect: [59, 61, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1b_beine.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1b_wurfel',
                             type: 'image',
+                            id: 'a1b_wurfel',
                             rect: [59, 61, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1b_wurfel.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1b_arm_v',
                             type: 'image',
+                            id: 'a1b_arm_v',
                             rect: [59, 61, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1b_arm_v.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a1b_arm_h',
                             type: 'image',
+                            id: 'a1b_arm_h',
                             rect: [59, 61, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a1b_arm_h.svg', '0px', '0px']
                         }
                     ],
@@ -2044,263 +2044,53 @@
                             '61px'
                         ],
                         [
-                            "eid221",
+                            "eid130",
                             "rotateZ",
                             0,
-                            2250,
+                            750,
                             "easeInOutQuad",
-                            "${a1b_windel}",
+                            "${a1b_arm_h}",
                             '0deg',
-                            '-1deg'
+                            '4deg'
                         ],
                         [
-                            "eid222",
-                            "rotateZ",
-                            2250,
-                            750,
-                            "easeInOutQuad",
-                            "${a1b_windel}",
-                            '-1deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid186",
-                            "top",
-                            0,
-                            1125,
-                            "easeInOutQuad",
-                            "${a1b_corpus}",
-                            '61px',
-                            '62px'
-                        ],
-                        [
-                            "eid187",
-                            "top",
-                            1125,
-                            1125,
-                            "easeInOutQuad",
-                            "${a1b_corpus}",
-                            '62px',
-                            '63px'
-                        ],
-                        [
-                            "eid188",
-                            "top",
-                            2250,
-                            750,
-                            "easeInOutQuad",
-                            "${a1b_corpus}",
-                            '63px',
-                            '61px'
-                        ],
-                        [
-                            "eid120",
-                            "top",
-                            0,
-                            750,
-                            "easeInOutQuad",
-                            "${a1b_arm_h}",
-                            '61px',
-                            '71px'
-                        ],
-                        [
-                            "eid121",
-                            "top",
-                            750,
-                            375,
-                            "easeInOutQuad",
-                            "${a1b_arm_h}",
-                            '71px',
-                            '59px'
-                        ],
-                        [
-                            "eid122",
-                            "top",
-                            1125,
-                            560,
-                            "easeInOutQuad",
-                            "${a1b_arm_h}",
-                            '59px',
-                            '61px'
-                        ],
-                        [
-                            "eid123",
-                            "top",
-                            1685,
-                            565,
-                            "easeInOutQuad",
-                            "${a1b_arm_h}",
-                            '61px',
-                            '71px'
-                        ],
-                        [
-                            "eid124",
-                            "top",
-                            2250,
-                            750,
-                            "easeInOutQuad",
-                            "${a1b_arm_h}",
-                            '71px',
-                            '61px'
-                        ],
-                        [
-                            "eid150",
-                            "top",
-                            0,
-                            750,
-                            "easeInOutQuad",
-                            "${a1b_wurfel}",
-                            '61px',
-                            '71px'
-                        ],
-                        [
-                            "eid151",
-                            "top",
-                            750,
-                            375,
-                            "easeInOutQuad",
-                            "${a1b_wurfel}",
-                            '71px',
-                            '51px'
-                        ],
-                        [
-                            "eid152",
-                            "top",
-                            1125,
-                            560,
-                            "easeInOutQuad",
-                            "${a1b_wurfel}",
-                            '51px',
-                            '61px'
-                        ],
-                        [
-                            "eid153",
-                            "top",
-                            1685,
-                            565,
-                            "easeInOutQuad",
-                            "${a1b_wurfel}",
-                            '61px',
-                            '71px'
-                        ],
-                        [
-                            "eid154",
-                            "top",
-                            2250,
-                            750,
-                            "easeInOutQuad",
-                            "${a1b_wurfel}",
-                            '71px',
-                            '61px'
-                        ],
-                        [
-                            "eid192",
-                            "rotateZ",
-                            0,
-                            750,
-                            "easeInOutQuad",
-                            "${a1b_corpus}",
-                            '0deg',
-                            '2deg'
-                        ],
-                        [
-                            "eid193",
+                            "eid131",
                             "rotateZ",
                             750,
                             375,
                             "easeInOutQuad",
-                            "${a1b_corpus}",
-                            '2deg',
-                            '-2deg'
-                        ],
-                        [
-                            "eid194",
-                            "rotateZ",
-                            1125,
-                            1125,
-                            "easeInOutQuad",
-                            "${a1b_corpus}",
-                            '-2deg',
-                            '-1deg'
-                        ],
-                        [
-                            "eid195",
-                            "rotateZ",
-                            2250,
-                            750,
-                            "easeInOutQuad",
-                            "${a1b_corpus}",
-                            '-1deg',
-                            '0deg'
-                        ],
-                        [
-                            "eid179",
-                            "rotateZ",
-                            0,
-                            525,
-                            "easeInOutQuad",
-                            "${a1b_beine}",
-                            '0deg',
-                            '-4deg'
-                        ],
-                        [
-                            "eid180",
-                            "rotateZ",
-                            525,
-                            225,
-                            "easeInOutQuad",
-                            "${a1b_beine}",
-                            '-4deg',
-                            '2deg'
-                        ],
-                        [
-                            "eid181",
-                            "rotateZ",
-                            750,
-                            375,
-                            "easeInOutQuad",
-                            "${a1b_beine}",
-                            '2deg',
-                            '-10deg'
-                        ],
-                        [
-                            "eid182",
-                            "rotateZ",
-                            1125,
-                            285,
-                            "easeInOutQuad",
-                            "${a1b_beine}",
-                            '-10deg',
+                            "${a1b_arm_h}",
+                            '4deg',
                             '-5deg'
                         ],
                         [
-                            "eid183",
+                            "eid132",
                             "rotateZ",
-                            1410,
-                            275,
+                            1125,
+                            560,
                             "easeInOutQuad",
-                            "${a1b_beine}",
+                            "${a1b_arm_h}",
                             '-5deg',
-                            '-13deg'
+                            '0deg'
                         ],
                         [
-                            "eid184",
+                            "eid133",
                             "rotateZ",
                             1685,
                             565,
                             "easeInOutQuad",
-                            "${a1b_beine}",
-                            '-13deg',
-                            '-1deg'
+                            "${a1b_arm_h}",
+                            '0deg',
+                            '3deg'
                         ],
                         [
-                            "eid185",
+                            "eid134",
                             "rotateZ",
                             2250,
                             750,
                             "easeInOutQuad",
-                            "${a1b_beine}",
-                            '-1deg',
+                            "${a1b_arm_h}",
+                            '3deg',
                             '0deg'
                         ],
                         [
@@ -2374,53 +2164,263 @@
                             '39px'
                         ],
                         [
-                            "eid130",
-                            "rotateZ",
+                            "eid120",
+                            "top",
                             0,
                             750,
                             "easeInOutQuad",
                             "${a1b_arm_h}",
-                            '0deg',
-                            '4deg'
+                            '61px',
+                            '71px'
                         ],
                         [
-                            "eid131",
-                            "rotateZ",
+                            "eid121",
+                            "top",
                             750,
                             375,
                             "easeInOutQuad",
                             "${a1b_arm_h}",
-                            '4deg',
-                            '-5deg'
+                            '71px',
+                            '59px'
                         ],
                         [
-                            "eid132",
-                            "rotateZ",
+                            "eid122",
+                            "top",
                             1125,
                             560,
                             "easeInOutQuad",
                             "${a1b_arm_h}",
-                            '-5deg',
-                            '0deg'
+                            '59px',
+                            '61px'
                         ],
                         [
-                            "eid133",
-                            "rotateZ",
+                            "eid123",
+                            "top",
                             1685,
                             565,
                             "easeInOutQuad",
                             "${a1b_arm_h}",
-                            '0deg',
-                            '3deg'
+                            '61px',
+                            '71px'
                         ],
                         [
-                            "eid134",
-                            "rotateZ",
+                            "eid124",
+                            "top",
                             2250,
                             750,
                             "easeInOutQuad",
                             "${a1b_arm_h}",
-                            '3deg',
+                            '71px',
+                            '61px'
+                        ],
+                        [
+                            "eid179",
+                            "rotateZ",
+                            0,
+                            525,
+                            "easeInOutQuad",
+                            "${a1b_beine}",
+                            '0deg',
+                            '-4deg'
+                        ],
+                        [
+                            "eid180",
+                            "rotateZ",
+                            525,
+                            225,
+                            "easeInOutQuad",
+                            "${a1b_beine}",
+                            '-4deg',
+                            '2deg'
+                        ],
+                        [
+                            "eid181",
+                            "rotateZ",
+                            750,
+                            375,
+                            "easeInOutQuad",
+                            "${a1b_beine}",
+                            '2deg',
+                            '-10deg'
+                        ],
+                        [
+                            "eid182",
+                            "rotateZ",
+                            1125,
+                            285,
+                            "easeInOutQuad",
+                            "${a1b_beine}",
+                            '-10deg',
+                            '-5deg'
+                        ],
+                        [
+                            "eid183",
+                            "rotateZ",
+                            1410,
+                            275,
+                            "easeInOutQuad",
+                            "${a1b_beine}",
+                            '-5deg',
+                            '-13deg'
+                        ],
+                        [
+                            "eid184",
+                            "rotateZ",
+                            1685,
+                            565,
+                            "easeInOutQuad",
+                            "${a1b_beine}",
+                            '-13deg',
+                            '-1deg'
+                        ],
+                        [
+                            "eid185",
+                            "rotateZ",
+                            2250,
+                            750,
+                            "easeInOutQuad",
+                            "${a1b_beine}",
+                            '-1deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid192",
+                            "rotateZ",
+                            0,
+                            750,
+                            "easeInOutQuad",
+                            "${a1b_corpus}",
+                            '0deg',
+                            '2deg'
+                        ],
+                        [
+                            "eid193",
+                            "rotateZ",
+                            750,
+                            375,
+                            "easeInOutQuad",
+                            "${a1b_corpus}",
+                            '2deg',
+                            '-2deg'
+                        ],
+                        [
+                            "eid194",
+                            "rotateZ",
+                            1125,
+                            1125,
+                            "easeInOutQuad",
+                            "${a1b_corpus}",
+                            '-2deg',
+                            '-1deg'
+                        ],
+                        [
+                            "eid195",
+                            "rotateZ",
+                            2250,
+                            750,
+                            "easeInOutQuad",
+                            "${a1b_corpus}",
+                            '-1deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid150",
+                            "top",
+                            0,
+                            750,
+                            "easeInOutQuad",
+                            "${a1b_wurfel}",
+                            '61px',
+                            '71px'
+                        ],
+                        [
+                            "eid151",
+                            "top",
+                            750,
+                            375,
+                            "easeInOutQuad",
+                            "${a1b_wurfel}",
+                            '71px',
+                            '51px'
+                        ],
+                        [
+                            "eid152",
+                            "top",
+                            1125,
+                            560,
+                            "easeInOutQuad",
+                            "${a1b_wurfel}",
+                            '51px',
+                            '61px'
+                        ],
+                        [
+                            "eid153",
+                            "top",
+                            1685,
+                            565,
+                            "easeInOutQuad",
+                            "${a1b_wurfel}",
+                            '61px',
+                            '71px'
+                        ],
+                        [
+                            "eid154",
+                            "top",
+                            2250,
+                            750,
+                            "easeInOutQuad",
+                            "${a1b_wurfel}",
+                            '71px',
+                            '61px'
+                        ],
+                        [
+                            "eid186",
+                            "top",
+                            0,
+                            1125,
+                            "easeInOutQuad",
+                            "${a1b_corpus}",
+                            '61px',
+                            '62px'
+                        ],
+                        [
+                            "eid187",
+                            "top",
+                            1125,
+                            1125,
+                            "easeInOutQuad",
+                            "${a1b_corpus}",
+                            '62px',
+                            '63px'
+                        ],
+                        [
+                            "eid188",
+                            "top",
+                            2250,
+                            750,
+                            "easeInOutQuad",
+                            "${a1b_corpus}",
+                            '63px',
+                            '61px'
+                        ],
+                        [
+                            "eid221",
+                            "rotateZ",
+                            0,
+                            2250,
+                            "easeInOutQuad",
+                            "${a1b_windel}",
+                            '0deg',
+                            '-1deg'
+                        ],
+                        [
+                            "eid222",
+                            "rotateZ",
+                            2250,
+                            750,
+                            "easeInOutQuad",
+                            "${a1b_windel}",
+                            '-1deg',
                             '0deg'
                         ]
                     ]
@@ -2436,66 +2436,66 @@
                 content: {
                     dom: [
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2a_arm_h',
                             type: 'image',
+                            id: 'a2a_arm_h',
                             rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2a_arm_h.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2a_arm_v',
                             type: 'image',
+                            id: 'a2a_arm_v',
                             rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2a_arm_v.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2a_bein_v',
                             type: 'image',
+                            id: 'a2a_bein_v',
                             rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2a_bein_v.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2a_corpus',
                             type: 'image',
+                            id: 'a2a_corpus',
                             rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2a_corpus.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2a_kopf',
                             type: 'image',
+                            id: 'a2a_kopf',
                             rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2a_kopf.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2a_teddy',
                             type: 'image',
+                            id: 'a2a_teddy',
                             rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2a_teddy.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2a_zehen_h',
                             type: 'image',
+                            id: 'a2a_zehen_h',
                             rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2a_zehen_h.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2a_zehen_v',
                             type: 'image',
+                            id: 'a2a_zehen_v',
                             rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2a_zehen_v.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2a_bein_h',
                             type: 'image',
+                            id: 'a2a_bein_h',
                             rect: [0, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2a_bein_h.svg', '0px', '0px']
                         }
                     ],
@@ -2763,43 +2763,23 @@
                             '0deg'
                         ],
                         [
-                            "eid278",
+                            "eid270",
                             "left",
                             0,
-                            889,
+                            1243,
                             "easeInOutQuad",
-                            "${a2a_corpus}",
+                            "${a2a_kopf}",
                             '0px',
-                            '-4px'
+                            '10px'
                         ],
                         [
-                            "eid279",
+                            "eid271",
                             "left",
-                            889,
-                            827,
+                            1243,
+                            2313,
                             "easeInOutQuad",
-                            "${a2a_corpus}",
-                            '-4px',
-                            '0px'
-                        ],
-                        [
-                            "eid280",
-                            "left",
-                            1717,
-                            654,
-                            "easeInOutQuad",
-                            "${a2a_corpus}",
-                            '0px',
-                            '-3px'
-                        ],
-                        [
-                            "eid281",
-                            "left",
-                            2371,
-                            1185,
-                            "easeInOutQuad",
-                            "${a2a_corpus}",
-                            '-3px',
+                            "${a2a_kopf}",
+                            '10px',
                             '0px'
                         ],
                         [
@@ -2933,23 +2913,33 @@
                             '0px'
                         ],
                         [
-                            "eid270",
+                            "eid261",
                             "left",
                             0,
-                            1243,
+                            0,
                             "easeInOutQuad",
-                            "${a2a_kopf}",
+                            "${a2a_teddy}",
                             '0px',
-                            '10px'
+                            '0px'
                         ],
                         [
-                            "eid271",
+                            "eid262",
                             "left",
-                            1243,
-                            2313,
+                            1778,
+                            0,
                             "easeInOutQuad",
-                            "${a2a_kopf}",
-                            '10px',
+                            "${a2a_teddy}",
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid263",
+                            "left",
+                            3556,
+                            0,
+                            "easeInOutQuad",
+                            "${a2a_teddy}",
+                            '0px',
                             '0px'
                         ],
                         [
@@ -3043,103 +3033,73 @@
                             '0px'
                         ],
                         [
-                            "eid283",
+                            "eid257",
                             "top",
                             0,
-                            0,
-                            "linear",
-                            "${a2a_bein_v}",
+                            889,
+                            "easeInOutQuad",
+                            "${a2a_teddy}",
                             '0px',
+                            '20px'
+                        ],
+                        [
+                            "eid258",
+                            "top",
+                            889,
+                            889,
+                            "easeInOutQuad",
+                            "${a2a_teddy}",
+                            '20px',
                             '0px'
                         ],
                         [
-                            "eid303",
-                            "rotateZ",
-                            0,
+                            "eid259",
+                            "top",
+                            1778,
                             889,
                             "easeInOutQuad",
-                            "${a2a_arm_h}",
-                            '0deg',
-                            '1deg'
+                            "${a2a_teddy}",
+                            '0px',
+                            '20px'
                         ],
                         [
-                            "eid304",
-                            "rotateZ",
+                            "eid260",
+                            "top",
+                            2667,
                             889,
-                            827,
                             "easeInOutQuad",
-                            "${a2a_arm_h}",
-                            '1deg',
-                            '0deg'
+                            "${a2a_teddy}",
+                            '20px',
+                            '0px'
                         ],
                         [
-                            "eid305",
-                            "rotateZ",
-                            1717,
-                            654,
+                            "eid268",
+                            "top",
+                            0,
+                            1243,
                             "easeInOutQuad",
-                            "${a2a_arm_h}",
-                            '0deg',
-                            '1deg'
+                            "${a2a_kopf}",
+                            '0px',
+                            '-9px'
                         ],
                         [
-                            "eid306",
-                            "rotateZ",
-                            2371,
-                            1185,
+                            "eid269",
+                            "top",
+                            1243,
+                            2313,
                             "easeInOutQuad",
-                            "${a2a_arm_h}",
-                            '1deg',
-                            '0deg'
+                            "${a2a_kopf}",
+                            '-9px',
+                            '0px'
                         ],
                         [
-                            "eid237",
+                            "eid282",
                             "rotateZ",
                             0,
-                            2005,
-                            "easeInOutQuad",
-                            "${a2a_zehen_v}",
+                            0,
+                            "linear",
+                            "${a2a_corpus}",
                             '0deg',
-                            '5deg'
-                        ],
-                        [
-                            "eid238",
-                            "rotateZ",
-                            2005,
-                            179,
-                            "easeInOutQuad",
-                            "${a2a_zehen_v}",
-                            '5deg',
-                            '-13deg'
-                        ],
-                        [
-                            "eid239",
-                            "rotateZ",
-                            2184,
-                            147,
-                            "easeInOutQuad",
-                            "${a2a_zehen_v}",
-                            '-13deg',
-                            '1deg'
-                        ],
-                        [
-                            "eid240",
-                            "rotateZ",
-                            2331,
-                            133,
-                            "easeInOutQuad",
-                            "${a2a_zehen_v}",
-                            '1deg',
-                            '-7deg'
-                        ],
-                        [
-                            "eid241",
-                            "rotateZ",
-                            2464,
-                            1093,
-                            "easeInOutQuad",
-                            "${a2a_zehen_v}",
-                            '-7deg',
                             '0deg'
                         ],
                         [
@@ -3213,103 +3173,143 @@
                             '0deg'
                         ],
                         [
-                            "eid282",
+                            "eid237",
                             "rotateZ",
                             0,
-                            0,
-                            "linear",
-                            "${a2a_corpus}",
+                            2005,
+                            "easeInOutQuad",
+                            "${a2a_zehen_v}",
                             '0deg',
+                            '5deg'
+                        ],
+                        [
+                            "eid238",
+                            "rotateZ",
+                            2005,
+                            179,
+                            "easeInOutQuad",
+                            "${a2a_zehen_v}",
+                            '5deg',
+                            '-13deg'
+                        ],
+                        [
+                            "eid239",
+                            "rotateZ",
+                            2184,
+                            147,
+                            "easeInOutQuad",
+                            "${a2a_zehen_v}",
+                            '-13deg',
+                            '1deg'
+                        ],
+                        [
+                            "eid240",
+                            "rotateZ",
+                            2331,
+                            133,
+                            "easeInOutQuad",
+                            "${a2a_zehen_v}",
+                            '1deg',
+                            '-7deg'
+                        ],
+                        [
+                            "eid241",
+                            "rotateZ",
+                            2464,
+                            1093,
+                            "easeInOutQuad",
+                            "${a2a_zehen_v}",
+                            '-7deg',
                             '0deg'
                         ],
                         [
-                            "eid268",
-                            "top",
-                            0,
-                            1243,
-                            "easeInOutQuad",
-                            "${a2a_kopf}",
-                            '0px',
-                            '-9px'
-                        ],
-                        [
-                            "eid269",
-                            "top",
-                            1243,
-                            2313,
-                            "easeInOutQuad",
-                            "${a2a_kopf}",
-                            '-9px',
-                            '0px'
-                        ],
-                        [
-                            "eid257",
-                            "top",
+                            "eid303",
+                            "rotateZ",
                             0,
                             889,
                             "easeInOutQuad",
-                            "${a2a_teddy}",
-                            '0px',
-                            '20px'
+                            "${a2a_arm_h}",
+                            '0deg',
+                            '1deg'
                         ],
                         [
-                            "eid258",
-                            "top",
+                            "eid304",
+                            "rotateZ",
                             889,
-                            889,
+                            827,
                             "easeInOutQuad",
-                            "${a2a_teddy}",
-                            '20px',
+                            "${a2a_arm_h}",
+                            '1deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid305",
+                            "rotateZ",
+                            1717,
+                            654,
+                            "easeInOutQuad",
+                            "${a2a_arm_h}",
+                            '0deg',
+                            '1deg'
+                        ],
+                        [
+                            "eid306",
+                            "rotateZ",
+                            2371,
+                            1185,
+                            "easeInOutQuad",
+                            "${a2a_arm_h}",
+                            '1deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid283",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${a2a_bein_v}",
+                            '0px',
                             '0px'
                         ],
                         [
-                            "eid259",
-                            "top",
-                            1778,
-                            889,
-                            "easeInOutQuad",
-                            "${a2a_teddy}",
-                            '0px',
-                            '20px'
-                        ],
-                        [
-                            "eid260",
-                            "top",
-                            2667,
-                            889,
-                            "easeInOutQuad",
-                            "${a2a_teddy}",
-                            '20px',
-                            '0px'
-                        ],
-                        [
-                            "eid261",
+                            "eid278",
                             "left",
                             0,
-                            0,
+                            889,
                             "easeInOutQuad",
-                            "${a2a_teddy}",
+                            "${a2a_corpus}",
                             '0px',
+                            '-4px'
+                        ],
+                        [
+                            "eid279",
+                            "left",
+                            889,
+                            827,
+                            "easeInOutQuad",
+                            "${a2a_corpus}",
+                            '-4px',
                             '0px'
                         ],
                         [
-                            "eid262",
+                            "eid280",
                             "left",
-                            1778,
-                            0,
+                            1717,
+                            654,
                             "easeInOutQuad",
-                            "${a2a_teddy}",
+                            "${a2a_corpus}",
                             '0px',
-                            '0px'
+                            '-3px'
                         ],
                         [
-                            "eid263",
+                            "eid281",
                             "left",
-                            3556,
-                            0,
+                            2371,
+                            1185,
                             "easeInOutQuad",
-                            "${a2a_teddy}",
-                            '0px',
+                            "${a2a_corpus}",
+                            '-3px',
                             '0px'
                         ]
                     ]
@@ -3325,64 +3325,64 @@
                 content: {
                     dom: [
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2b_arm_hCopy',
                             type: 'image',
+                            id: 'a2b_arm_hCopy',
                             rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2b_arm_h.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2b_arm_vCopy',
                             type: 'image',
+                            id: 'a2b_arm_vCopy',
                             rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2b_arm_v.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2b_barbieCopy',
                             type: 'image',
+                            id: 'a2b_barbieCopy',
                             rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2b_barbie.svg', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'a2b_bein_h',
                             rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'a2b_bein_h',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/a2b_bein_h.svg', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            id: 'a2b_bein_v',
                             rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
+                            id: 'a2b_bein_v',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/a2b_bein_v.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2b_corpusCopy',
                             type: 'image',
+                            id: 'a2b_corpusCopy',
                             rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2b_corpus.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2b_kopfCopy',
                             type: 'image',
+                            id: 'a2b_kopfCopy',
                             rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2b_kopf.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2b_zehen_hCopy',
                             type: 'image',
+                            id: 'a2b_zehen_hCopy',
                             rect: [0, 1, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2b_zehen_h.svg', '0px', '0px']
                         },
                         {
-                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
-                            id: 'a2b_zehen_vCopy',
                             type: 'image',
+                            id: 'a2b_zehen_vCopy',
                             rect: [3, 0, '2048px', '1536px', 'auto', 'auto'],
+                            transform: [[0, 0, 0], ['0', 0, 0], [0, 0], [1, 1, 1], ['50%', '50%']],
                             fill: ['rgba(0,0,0,0)', 'images/a2b_zehen_v.svg', '0px', '0px']
                         }
                     ],
@@ -3580,34 +3580,24 @@
                             '3px'
                         ],
                         [
-                            "eid415",
-                            "top",
+                            "eid418",
+                            "left",
                             0,
-                            1206,
-                            "easeInQuad",
+                            1687,
+                            "easeInOutQuad",
                             "${a2b_kopfCopy}",
-                            '1px',
-                            '9px'
-                        ],
-                        [
-                            "eid416",
-                            "top",
-                            1333,
-                            354,
-                            "easeOutQuad",
-                            "${a2b_kopfCopy}",
-                            '9px',
+                            '0px',
                             '10px'
                         ],
                         [
-                            "eid417",
-                            "top",
+                            "eid419",
+                            "left",
                             1687,
                             1869,
                             "easeInOutQuad",
                             "${a2b_kopfCopy}",
                             '10px',
-                            '1px'
+                            '0px'
                         ],
                         [
                             "eid455",
@@ -3770,24 +3760,34 @@
                             '0deg'
                         ],
                         [
-                            "eid418",
-                            "left",
+                            "eid415",
+                            "top",
                             0,
-                            1687,
-                            "easeInOutQuad",
+                            1206,
+                            "easeInQuad",
                             "${a2b_kopfCopy}",
-                            '0px',
+                            '1px',
+                            '9px'
+                        ],
+                        [
+                            "eid416",
+                            "top",
+                            1333,
+                            354,
+                            "easeOutQuad",
+                            "${a2b_kopfCopy}",
+                            '9px',
                             '10px'
                         ],
                         [
-                            "eid419",
-                            "left",
+                            "eid417",
+                            "top",
                             1687,
                             1869,
                             "easeInOutQuad",
                             "${a2b_kopfCopy}",
                             '10px',
-                            '0px'
+                            '1px'
                         ],
                         [
                             "eid430",
@@ -3900,23 +3900,103 @@
                             '0px'
                         ],
                         [
-                            "eid454",
-                            "left",
+                            "eid394",
+                            "rotateZ",
                             0,
-                            0,
-                            "linear",
-                            "${a2b_arm_hCopy}",
-                            '0px',
-                            '0px'
+                            889,
+                            "easeInQuad",
+                            "${a2b_zehen_vCopy}",
+                            '0deg',
+                            '-2deg'
                         ],
                         [
-                            "eid453",
+                            "eid395",
+                            "rotateZ",
+                            889,
+                            731,
+                            "easeOutQuad",
+                            "${a2b_zehen_vCopy}",
+                            '-2deg',
+                            '-5deg'
+                        ],
+                        [
+                            "eid396",
+                            "rotateZ",
+                            1620,
+                            179,
+                            "easeInOutQuad",
+                            "${a2b_zehen_vCopy}",
+                            '-5deg',
+                            '6deg'
+                        ],
+                        [
+                            "eid397",
+                            "rotateZ",
+                            1799,
+                            147,
+                            "easeInOutQuad",
+                            "${a2b_zehen_vCopy}",
+                            '6deg',
+                            '-1deg'
+                        ],
+                        [
+                            "eid398",
+                            "rotateZ",
+                            1946,
+                            133,
+                            "easeInOutQuad",
+                            "${a2b_zehen_vCopy}",
+                            '-1deg',
+                            '7deg'
+                        ],
+                        [
+                            "eid399",
+                            "rotateZ",
+                            2079,
+                            1478,
+                            "easeInOutQuad",
+                            "${a2b_zehen_vCopy}",
+                            '7deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid431",
                             "top",
                             0,
-                            0,
-                            "linear",
-                            "${a2b_arm_hCopy}",
+                            889,
+                            "easeInOutQuad",
+                            "${a2b_barbieCopy}",
                             '1px',
+                            '-19px'
+                        ],
+                        [
+                            "eid432",
+                            "top",
+                            889,
+                            889,
+                            "easeInOutQuad",
+                            "${a2b_barbieCopy}",
+                            '-19px',
+                            '1px'
+                        ],
+                        [
+                            "eid433",
+                            "top",
+                            1778,
+                            889,
+                            "easeInOutQuad",
+                            "${a2b_barbieCopy}",
+                            '1px',
+                            '-19px'
+                        ],
+                        [
+                            "eid434",
+                            "top",
+                            2667,
+                            889,
+                            "easeInOutQuad",
+                            "${a2b_barbieCopy}",
+                            '-19px',
                             '1px'
                         ],
                         [
@@ -4020,104 +4100,24 @@
                             '0deg'
                         ],
                         [
-                            "eid431",
+                            "eid453",
                             "top",
                             0,
-                            889,
-                            "easeInOutQuad",
-                            "${a2b_barbieCopy}",
+                            0,
+                            "linear",
+                            "${a2b_arm_hCopy}",
                             '1px',
-                            '-19px'
-                        ],
-                        [
-                            "eid432",
-                            "top",
-                            889,
-                            889,
-                            "easeInOutQuad",
-                            "${a2b_barbieCopy}",
-                            '-19px',
                             '1px'
                         ],
                         [
-                            "eid433",
-                            "top",
-                            1778,
-                            889,
-                            "easeInOutQuad",
-                            "${a2b_barbieCopy}",
-                            '1px',
-                            '-19px'
-                        ],
-                        [
-                            "eid434",
-                            "top",
-                            2667,
-                            889,
-                            "easeInOutQuad",
-                            "${a2b_barbieCopy}",
-                            '-19px',
-                            '1px'
-                        ],
-                        [
-                            "eid394",
-                            "rotateZ",
+                            "eid454",
+                            "left",
                             0,
-                            889,
-                            "easeInQuad",
-                            "${a2b_zehen_vCopy}",
-                            '0deg',
-                            '-2deg'
-                        ],
-                        [
-                            "eid395",
-                            "rotateZ",
-                            889,
-                            731,
-                            "easeOutQuad",
-                            "${a2b_zehen_vCopy}",
-                            '-2deg',
-                            '-5deg'
-                        ],
-                        [
-                            "eid396",
-                            "rotateZ",
-                            1620,
-                            179,
-                            "easeInOutQuad",
-                            "${a2b_zehen_vCopy}",
-                            '-5deg',
-                            '6deg'
-                        ],
-                        [
-                            "eid397",
-                            "rotateZ",
-                            1799,
-                            147,
-                            "easeInOutQuad",
-                            "${a2b_zehen_vCopy}",
-                            '6deg',
-                            '-1deg'
-                        ],
-                        [
-                            "eid398",
-                            "rotateZ",
-                            1946,
-                            133,
-                            "easeInOutQuad",
-                            "${a2b_zehen_vCopy}",
-                            '-1deg',
-                            '7deg'
-                        ],
-                        [
-                            "eid399",
-                            "rotateZ",
-                            2079,
-                            1478,
-                            "easeInOutQuad",
-                            "${a2b_zehen_vCopy}",
-                            '7deg',
-                            '0deg'
+                            0,
+                            "linear",
+                            "${a2b_arm_hCopy}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid422",
@@ -4172,28 +4172,28 @@
                 content: {
                     dom: [
                         {
-                            type: 'rect',
+                            rect: [0, -103, 2197, 1742, 'auto', 'auto'],
                             id: 'sym_a1a',
                             symbolName: 'sym_a1a',
-                            rect: [0, -103, 2197, 1742, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
+                            rect: [0, -58, 2126, 1641, 'auto', 'auto'],
                             id: 'sym_a1b',
                             symbolName: 'sym_a1b',
-                            rect: [0, -58, 2126, 1641, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
+                            rect: [1786, 0, 2048, 1536, 'auto', 'auto'],
                             id: 'sym_a2a',
                             symbolName: 'sym_a2a',
-                            rect: [1786, 0, 2048, 1536, 'auto', 'auto']
+                            type: 'rect'
                         },
                         {
-                            type: 'rect',
+                            rect: [1786, 0, 2051, 1537, 'auto', 'auto'],
                             id: 'sym_a2b',
                             symbolName: 'sym_a2b',
-                            rect: [1786, 0, 2051, 1537, 'auto', 'auto']
+                            type: 'rect'
                         }
                     ],
                     style: {
@@ -4208,14 +4208,24 @@
                     autoPlay: false,
                     data: [
                         [
-                            "eid1454",
-                            "top",
+                            "eid1439",
+                            "left",
                             0,
                             0,
                             "linear",
                             "${sym_a1a}",
-                            '-103px',
-                            '-103px'
+                            '0px',
+                            '0px'
+                        ],
+                        [
+                            "eid1487",
+                            "left",
+                            1250,
+                            1750,
+                            "linear",
+                            "${sym_a1a}",
+                            '0px',
+                            '-400px'
                         ],
                         [
                             "eid1442",
@@ -4278,14 +4288,14 @@
                             '0px'
                         ],
                         [
-                            "eid1452",
+                            "eid1454",
                             "top",
                             0,
                             0,
                             "linear",
-                            "${sym_a2a}",
-                            '0px',
-                            '0px'
+                            "${sym_a1a}",
+                            '-103px',
+                            '-103px'
                         ],
                         [
                             "eid1441",
@@ -4318,24 +4328,14 @@
                             '-58px'
                         ],
                         [
-                            "eid1439",
-                            "left",
+                            "eid1452",
+                            "top",
                             0,
                             0,
                             "linear",
-                            "${sym_a1a}",
+                            "${sym_a2a}",
                             '0px',
                             '0px'
-                        ],
-                        [
-                            "eid1487",
-                            "left",
-                            1250,
-                            1750,
-                            "linear",
-                            "${sym_a1a}",
-                            '0px',
-                            '-400px'
                         ]
                     ]
                 }
@@ -4381,16 +4381,16 @@
                 content: {
                     dom: [
                         {
-                            rect: [0, -1334, 2048, '1536px', 'auto', 'auto'],
+                            type: 'rect',
                             id: 'Rectangle2',
                             stroke: [0, 'rgba(0,0,0,1)', 'none'],
-                            type: 'rect',
+                            rect: [0, -1334, 2048, '1536px', 'auto', 'auto'],
                             fill: ['rgba(255,0,80,1.00)']
                         },
                         {
-                            type: 'image',
-                            id: 'welle2',
                             rect: [0, 30, '4096px', '900px', 'auto', 'auto'],
+                            id: 'welle2',
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/welle2.svg', '0px', '0px']
                         }
                     ],
@@ -4417,6 +4417,16 @@
                             "${Rectangle2}",
                             '-1334px',
                             '-1334px'
+                        ],
+                        [
+                            "eid1462",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${Rectangle2}",
+                            '0px',
+                            '0px'
                         ],
                         [
                             "eid1466",
@@ -4477,16 +4487,6 @@
                             "${welle2}",
                             '0.8',
                             '1'
-                        ],
-                        [
-                            "eid1462",
-                            "left",
-                            0,
-                            0,
-                            "linear",
-                            "${Rectangle2}",
-                            '0px',
-                            '0px'
                         ],
                         [
                             "eid1475",
