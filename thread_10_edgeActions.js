@@ -12,7 +12,8 @@
 
   //Edge symbol: 'stage'
   (function(symbolName) {
-
+    ay = 0;
+    ax = 0;
 
     Symbol.bindElementAction(compId, symbolName, "${Stage}", "scroll", function(sym, e) {
       var myCalc = e.currentTarget.scrollLeft / (e.currentTarget.scrollWidth - e.currentTarget.clientWidth);
@@ -31,8 +32,8 @@
         //ondevicemotion is fired when iOS device detects motion
         window.ondevicemotion = function(e) {
           //ax is the movement on the x axis.
-          ax = event.accelerationIncludingGravity.x;
-          ay = event.accelerationIncludingGravity.y;
+          ax = (event.accelerationIncludingGravity.x + ax * 6) / 7;
+          ay = (event.accelerationIncludingGravity.y + ay * 6) / 7;
 
 
           sym.getSymbol("sym_welleframe").getSymbol("sym_welle_2").getSymbolElement().css("margin-top", ax * -1 * 200 + "px");

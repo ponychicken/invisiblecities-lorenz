@@ -12,7 +12,8 @@
 
   //Edge symbol: 'stage'
   (function(symbolName) {
-
+    ay = 0;
+    ax = 0;
 
     Symbol.bindElementAction(compId, symbolName, "${Stage}", "scroll", function(sym, e) {
       var myCalc = e.currentTarget.scrollLeft / (e.currentTarget.scrollWidth - e.currentTarget.clientWidth);
@@ -22,25 +23,21 @@
       sym.stop(pos);
       sym.getSymbol("sym_all").stop(poss);
 
-
     });
     //Edge binding end
 
     Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
       //Detect if the browser supports DeviceMotionEvent
-      if (window.DeviceMotionEvent != undefined) {
+      if (window.DeviceMotionEvent !== undefined) {
 
         //ondevicemotion is fired when iOS device detects motion
         window.ondevicemotion = function(e) {
-          //ax is the movement on the x axis.
-          //This motion is used to move the ship in the game
-          ax = event.accelerationIncludingGravity.x;
-          ay = event.accelerationIncludingGravity.y;
-
+          ax = (event.accelerationIncludingGravity.x + ax * 6) / 7;
+          ay = (event.accelerationIncludingGravity.y + ay * 6) / 7;
 
           sym.getSymbol("sym_welleframe").getSymbol("sym_welle").getSymbolElement().css("margin-top", ax * 200 + "px");
 
-        }
+        };
       }
 
     });
@@ -57,7 +54,7 @@
 
 
   })("stage");
-  //Edge symbol end:'stage'
+   //Edge symbol end:'stage'
 
   //=========================================================
 
@@ -65,7 +62,7 @@
   (function(symbolName) {
 
   })("sym_all");
-  //Edge symbol end:'sym_all'
+   //Edge symbol end:'sym_all'
 
   //=========================================================
 
@@ -79,7 +76,7 @@
     //Edge binding end
 
   })("sym_welle");
-  //Edge symbol end:'sym_welle'
+   //Edge symbol end:'sym_welle'
 
   //=========================================================
 
@@ -87,7 +84,7 @@
   (function(symbolName) {
 
   })("sym_welleframe");
-  //Edge symbol end:'sym_welleframe'
+   //Edge symbol end:'sym_welleframe'
 
   //=========================================================
 
@@ -95,6 +92,6 @@
   (function(symbolName) {
 
   })("Preloader");
-  //Edge symbol end:'Preloader'
+   //Edge symbol end:'Preloader'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-5245403");

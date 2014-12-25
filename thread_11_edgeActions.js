@@ -34,14 +34,13 @@
         //ondevicemotion is fired when iOS device detects motion
         window.ondevicemotion = function(e) {
           //ax is the movement on the x axis.
-          ax = (event.accelerationIncludingGravity.x + ax * 4) / 5;
-          ay = (event.accelerationIncludingGravity.y + ay * 4) / 5;
+          ax = (event.accelerationIncludingGravity.x + ax * 6) / 7;
+          ay = (event.accelerationIncludingGravity.y + ay * 6) / 7;
 
 
           sym.getSymbol("sym_welleframe").getSymbol("sym_welle_1").getSymbolElement().css("margin-top", ax * 90 + "px");
         };
       }
-
     });
     //Edge binding end
 

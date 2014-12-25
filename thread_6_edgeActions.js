@@ -12,7 +12,8 @@
 
   //Edge symbol: 'stage'
   (function(symbolName) {
-
+    ay = 0;
+    ax = 0;
 
     Symbol.bindElementAction(compId, symbolName, "${Stage}", "scroll", function(sym, e) {
       var myCalc = e.currentTarget.scrollLeft / (e.currentTarget.scrollWidth - e.currentTarget.clientWidth);
@@ -25,19 +26,18 @@
 
     Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
       //Detect if the browser supports DeviceMotionEvent
-      if (window.DeviceMotionEvent != undefined) {
+      if (window.DeviceMotionEvent !== undefined) {
 
         //ondevicemotion is fired when iOS device detects motion
         window.ondevicemotion = function(e) {
           //ax is the movement on the x axis.
-          //This motion is used to move the ship in the game
-          ax = event.accelerationIncludingGravity.x;
-          ay = event.accelerationIncludingGravity.y;
+          ax = (event.accelerationIncludingGravity.x + ax * 6) / 7;
+          ay = (event.accelerationIncludingGravity.y + ay * 6) / 7;
 
 
           sym.getSymbol("sym_welleframe").getSymbol("sym_welle_2").getSymbolElement().css("margin-top", ax * 200 + "px");
 
-        }
+        };
       }
 
     });
